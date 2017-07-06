@@ -1,0 +1,36 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {  
+	border: none;
+	background: $primary;
+	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+	line-height: 1;
+	padding: 0.8em 1.5em;
+	color: $white;
+	@include transition-default(all, 0.5s, ease);
+	border-radius: 3px;
+
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	background-color: $secondary;
+	position: relative;
+	color: $white;
+
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	border-color: $secondary;
+}

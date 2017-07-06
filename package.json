@@ -1,0 +1,31 @@
+{
+  "name": "tech-literacy",
+  "version": "1.0.0",
+  "description": "gym theme",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sort": "^2.0.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-wp-pot": "^2.0.6",
+    "gulp-zip": "^4.0.0",
+    "npm-update-outdated": "^0.1.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "education",
+    "literacy"
+  ],
+  "author": "N.Venkat Raj",
+  "license": "ISC"
+}
