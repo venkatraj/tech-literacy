@@ -104,7 +104,7 @@ function tech_literacy_setup() {
 		        	'text' , 
 		        	// Widget $instance -> settings 
 					array(
-					  'text'  => '<ul><li><i class="fa fa-envelope-o"></i><a href="mailto:information@mail.com">information@mail.com</a></li> <li><i class="fa fa-phone"></i> Call Us:(1)118 234 678</li></ul>'
+					  'text'  => __( '<ul><li><i class="fa fa-envelope-o"></i><a href="mailto:information@mail.com">information@mail.com</a></li> <li><i class="fa fa-phone"></i> Call Us:(1)118 234 678</li></ul>','tech-literacy')
 					)
 				)
 			),
@@ -117,7 +117,7 @@ function tech_literacy_setup() {
 		        	'text' , 
 		        	// Widget $instance -> settings 
 					array(
-					  'text'  => '<ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-pinterest"></i></a></li><li><a href="#"><i class="fa fa-tumblr"></i></a></li></ul>'
+					  'text'  => __('<ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-pinterest"></i></a></li><li><a href="#"><i class="fa fa-tumblr"></i></a></li></ul>','tech-literacy')
 					)
 				),
 			),
@@ -128,7 +128,7 @@ function tech_literacy_setup() {
 		        	'text' , 
 		        	// Widget $instance -> settings 
 					array(
-					  'text'  => '<i class="fa fa-phone twelve columns"></i><p class="four columns align-left">call us now<br><span class="clr-primary">715.248.1574</span></p>'
+					  'text'  => __( '<i class="fa fa-phone twelve columns"></i><p class="four columns align-left">call us now<br><span class="clr-primary">715.248.1574</span></p>','tech-literacy')
 					)
 				)
 			),

@@ -30,7 +30,7 @@ get_header(); ?>
 							<?php echo get_avatar( get_the_author_meta( 'email' ), '72' ); ?>
 						</div>
 						<div class="description">
-							<h4><?php echo __( 'About Author:', 'tech-literacy' ); ?> <?php the_author_posts_link(); ?></h4>
+							<h4><?php _e( 'About Author:', 'tech-literacy' ); ?> <?php the_author_posts_link(); ?></h4>
 							<?php the_author_meta('description');?>
 						</div>
 					</div>

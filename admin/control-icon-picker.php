@@ -34,7 +34,6 @@ if( !function_exists('tech_literacy_icon_add_icon_picker_control') ) {
 				wp_enqueue_script( 'icon-picker-js', trailingslashit( get_template_directory_uri() ) . 'js/fontawesome-iconpicker.min.js', array( 'jquery' )  );
 			    wp_enqueue_style( 'icon-picker-css', trailingslashit( get_template_directory_uri() ) . 'css/fontawesome-iconpicker.min.css' );
 			    wp_enqueue_style( 'font-awesome', trailingslashit( get_template_directory_uri() ) . 'css/font-awesome.min.css' );
-			   // wp_enqueue_script( 'icon-picker-jsss', trailingslashit( get_template_directory_uri() ) . 'js/aaa.js',  array( 'jquery' )  );
 			}
 
 			public function render_content() {
@@ -47,10 +46,7 @@ if( !function_exists('tech_literacy_icon_add_icon_picker_control') ) {
 	            </label>
 	            <script type="text/javascript">
 					jQuery(function($) {  
-						//$('.faip').click(function() {
-							$('.faip').iconpicker(); 
-						   // $('.iconpicker-popover').toggle();
-					    //});
+						$('.faip').iconpicker();
 					});
 				</script>
 			<?php }

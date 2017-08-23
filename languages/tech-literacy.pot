@@ -76,8 +76,24 @@ msgstr ""
 msgid "Theme: Tech Literacy by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Webulous Themes</a></p>"
 msgstr ""
 
+#: front-page.php:71, front-page.php:107, template-parts/content-single.php:36, template-parts/content.php:46
+msgid "Pages: "
+msgstr ""
+
 #: functions.php:47
 msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:107
+msgid "<ul><li><i class=\"fa fa-envelope-o\"></i><a href=\"mailto:information@mail.com\">information@mail.com</a></li> <li><i class=\"fa fa-phone\"></i> Call Us:(1)118 234 678</li></ul>"
+msgstr ""
+
+#: functions.php:120
+msgid "<ul><li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li><li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li><li><a href=\"#\"><i class=\"fa fa-pinterest\"></i></a></li><li><a href=\"#\"><i class=\"fa fa-tumblr\"></i></a></li></ul>"
+msgstr ""
+
+#: functions.php:131
+msgid "<i class=\"fa fa-phone twelve columns\"></i><p class=\"four columns align-left\">call us now<br><span class=\"clr-primary\">715.248.1574</span></p>"
 msgstr ""
 
 #: functions.php:142
@@ -709,102 +725,102 @@ msgstr ""
 msgid ", "
 msgstr ""
 
-#: includes/template-tags.php:199
+#: includes/template-tags.php:193
 msgid "<i class=\"fa fa-home\"></i>"
 msgstr ""
 
-#: includes/template-tags.php:200
+#: includes/template-tags.php:194
 msgid "Archive by Category \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:201
+#: includes/template-tags.php:195
 msgid "Search Results for \"%s\" Query"
 msgstr ""
 
-#: includes/template-tags.php:202
+#: includes/template-tags.php:196
 msgid "Posts Tagged \"%s\""
 msgstr ""
 
-#: includes/template-tags.php:203
+#: includes/template-tags.php:197
 msgid "Articles Posted by %s"
 msgstr ""
 
-#: includes/template-tags.php:204
+#: includes/template-tags.php:198
 msgid "Error 404"
 msgstr ""
 
-#: includes/template-tags.php:257, includes/template-tags.php:257, includes/template-tags.php:258, includes/template-tags.php:262, includes/template-tags.php:262, includes/template-tags.php:266
+#: includes/template-tags.php:251, includes/template-tags.php:251, includes/template-tags.php:252, includes/template-tags.php:256, includes/template-tags.php:256, includes/template-tags.php:260
 msgid "Y"
 msgstr ""
 
-#: includes/template-tags.php:258
+#: includes/template-tags.php:252
 msgid "m"
 msgstr ""
 
-#: includes/template-tags.php:258, includes/template-tags.php:263
+#: includes/template-tags.php:252, includes/template-tags.php:257
 msgid "F"
 msgstr ""
 
-#: includes/template-tags.php:259
+#: includes/template-tags.php:253
 msgid "d"
 msgstr ""
 
-#: includes/template-tags.php:329
+#: includes/template-tags.php:323
 msgid "Page"
 msgstr ""
 
-#: includes/template-tags.php:350
+#: includes/template-tags.php:344
 msgctxt "post author"
 msgid " %s"
 msgstr ""
 
-#: includes/template-tags.php:370
+#: includes/template-tags.php:364
 msgid "No Comments"
 msgstr ""
 
-#: includes/template-tags.php:372
+#: includes/template-tags.php:366
 msgid " Comments"
 msgstr ""
 
-#: includes/template-tags.php:374
+#: includes/template-tags.php:368
 msgid "1 Comment"
 msgstr ""
 
-#: includes/template-tags.php:378
+#: includes/template-tags.php:372
 msgid "Leave a comment"
 msgstr ""
 
-#: includes/template-tags.php:387, template-parts/content-page.php:30
+#: includes/template-tags.php:381, template-parts/content-page.php:30
 msgid "Edit"
 msgstr ""
 
-#: includes/template-tags.php:434, includes/template-tags.php:437
+#: includes/template-tags.php:428, includes/template-tags.php:431
 msgid "No Related Posts Yet!"
 msgstr ""
 
-#: includes/template-tags.php:465, template-parts/content.php:40
+#: includes/template-tags.php:459, template-parts/content.php:40
 msgid "Read More"
 msgstr ""
 
-#: includes/template-tags.php:501
+#: includes/template-tags.php:495
 msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
 msgstr ""
 
-#: includes/template-tags.php:502
+#: includes/template-tags.php:496
 msgid "Get started with Tech Literacy"
 msgstr ""
 
-#: includes/template-tags.php:512
+#: includes/template-tags.php:506
 msgctxt "label"
 msgid "Search for:"
 msgstr ""
 
-#: includes/template-tags.php:513
+#: includes/template-tags.php:507
 msgctxt "placeholder"
 msgid "Have a question? Search here"
 msgstr ""
 
-#: includes/template-tags.php:514
+#: includes/template-tags.php:508
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
@@ -827,8 +843,4 @@ msgstr ""
 
 #: template-parts/content-page.php:21
 msgid "Pages:"
-msgstr ""
-
-#: template-parts/content-single.php:36, template-parts/content.php:46
-msgid "Pages: "
 msgstr ""

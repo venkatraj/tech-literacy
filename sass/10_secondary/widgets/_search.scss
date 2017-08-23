@@ -53,6 +53,9 @@
     	border: 1px solid $primary;
     	background-color: $white;
     	padding: 0px 20px;
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: scroll;
     	ul {		
            margin-left:0;
     	}

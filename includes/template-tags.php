@@ -167,12 +167,6 @@ if( ! function_exists('tech_literacy_recent_posts') ) {
 						$output .= '</a></div><!-- .latest-post-thumb -->';
 						$output .= '<div class="latest-post-content-wrapper">';
 						  $output .= '<h6><a href="'. esc_url(get_permalink()) . '">' . get_the_title() . '</a></h6>';
-							/*$output .= '<div class="latest-post-content">' . get_the_content() . '</div>';
-							$output .='<div class="entry-meta">';
-								$output .='<span class="data-structure"><h2 class="dd">' . get_the_time('j').'</h2><span class="month">' . get_the_time('F').'</span></span>';
-								//$output .= tech_literacy_get_author();
-								//$output .= tech_literacy_get_comments_meta();
-							$output .='</div><!-- entry-meta -->';*/
 						$output .= '</div><!-- .latest-post-content-wrapper -->';
 			    $output .= '</div>';	
 				$output .= '</div><!-- .latest-post -->';
@@ -326,7 +320,7 @@ if( ! function_exists('tech_literacy_recent_posts') ) {
 
 			if ( get_query_var('paged') ) {
 				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ' (';
-				echo __('Page', 'tech-literacy' ) . ' ' . get_query_var('paged');
+				 _e('Page', 'tech-literacy' ) . ' ' . get_query_var('paged');
 				if ( is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author() ) echo ')';
 			}
 

@@ -1765,10 +1765,8 @@ blockquote, q {
     position: relative; }
     blockquote p cite, q p cite {
       font-style: normal;
-      text-transform: uppercase;
-      color: #fff; }
+      text-transform: uppercase; }
     blockquote p a, blockquote p a:visited, q p a, q p a:visited {
-      color: #fff;
       font-size: 14px;
       font-size: 1.4rem; }
     blockquote p a:hover, q p a:hover {
@@ -2832,6 +2830,9 @@ blockquote, q {
     border: 1px solid #e74b3c;
     background-color: #fff;
     padding: 0px 20px;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
     color: #27323d; }
     #search-style #search_dropdown_list .search-dd-wrapper ul {
       margin-left: 0; }
@@ -3010,17 +3011,6 @@ blockquote, q {
     position: relative; }
     .site-info .widget_nav_menu a:hover {
       color: #e74b3c; }
-
-#jquery-live-search {
-  background: #fff;
-  padding: 5px 10px;
-  max-height: 400px;
-  overflow: auto;
-  position: absolute;
-  z-index: 99;
-  border: 1px solid #A9A9A9;
-  border-width: 0 1px 1px 1px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); }
 
 /*--------------------------------------------------------------
 12.0 Responsiveness
