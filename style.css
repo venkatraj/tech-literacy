@@ -4,7 +4,7 @@ Theme URI: http://www.webulousthemes.com/tech-literacy/
 Author: N. Venkat Raj  
 Author URI: http://www.webulousthemes.com/
 Description: Tech Literacy is a free, clean, minimalistic, responsive, mobile-friendly WordPress theme. Tech Literacy suitable for education, literacy websites, online stores, personal portfolio, agencies, start-ups. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly. Theme includes lots of features like Drag & Drop page builder. 
-Version: 1.0.1     
+Version: 1.0.3    
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: tech-literacy
@@ -88,7 +88,8 @@ html {
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
-  overflow: hidden; }
+  overflow: hidden;
+  direction: ltr; }
 
 article,
 aside,
@@ -2820,6 +2821,8 @@ blockquote, q {
     border-left: 1px solid #d4d4d4;
     background: transparent;
     background: url("images/icon-search-black.png") no-repeat 50% 50%; }
+  #search-style .search-form .search-loader {
+    background: #fff url("images/loading.gif") no-repeat scroll calc(100% - 60px) 50%/25px 25px; }
 
 #search-style #search_dropdown_list {
   position: absolute;
@@ -2830,7 +2833,7 @@ blockquote, q {
     border: 1px solid #e74b3c;
     background-color: #fff;
     padding: 0px 20px;
-    height: 500px;
+    height: 350px;
     overflow-x: hidden;
     overflow-y: scroll;
     color: #27323d; }

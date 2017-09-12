@@ -30,7 +30,7 @@
 
  
 /* header bottom (breacrumb above) search box style */
-#search-style {
+#search-style {  
   .search-form {
     max-width: 50%;
     margin: 0 auto;
@@ -43,6 +43,9 @@
     	background: transparent;
     	background:url("images/icon-search-black.png") no-repeat 50% 50%;
     }
+    .search-loader {
+       background: $white url("images/loading.gif") no-repeat scroll calc(100% - 60px) 50% / 25px 25px;
+    }
   }
   #search_dropdown_list {
     position: absolute;
@@ -53,7 +56,7 @@
     	border: 1px solid $primary;
     	background-color: $white;
     	padding: 0px 20px;
-        height: 500px;
+        height: 350px;
         overflow-x: hidden;
         overflow-y: scroll;
     	ul {		

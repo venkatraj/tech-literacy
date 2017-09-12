@@ -212,7 +212,7 @@ function tech_literacy_display_upgrade() {
                 </div>
             </div>
         <?php } ?>
-
+ 
         <?php if ( $tab == 'pro_features' ) { ?>
             <div class="pro-features-tab info-tab-content"><?php
 			    global $tech_literacy_why_upgrade; ?>
@@ -379,7 +379,7 @@ function tech_literacy_display_upgrade() {
                                     'no-sidebar' => __('No Sidebar', 'tech-literacy'),
                                 ),
                                 'default' => 'right',  
-                                'sanitize_callback' => 'esc_html', 
+                                'sanitize_callback' => 'sanitize_text_field', 
                             ),
 						),
 					),
@@ -444,7 +444,7 @@ function tech_literacy_display_upgrade() {
 							'service_section_icon_1' => array(
 								'type' => 'icons-picker',
 								'label' => __('Choose Service Section Icons #1', 'tech-literacy'),
-								'sanitize_callback' => 'esc_html',
+								'sanitize_callback' => 'sanitize_text_field',
 							),
 							'service_1' => array(
 								'type' => 'dropdown-pages',
@@ -460,7 +460,7 @@ function tech_literacy_display_upgrade() {
 							'service_section_icon_2' => array(
 								'type' => 'icons-picker',
 								'label' => __('Choose Service Section Icons #2', 'tech-literacy'),
-								'sanitize_callback' => 'esc_html',
+								'sanitize_callback' => 'sanitize_text_field',
 							),
 							'service_2' => array(
 								'type' => 'dropdown-pages',
@@ -476,7 +476,7 @@ function tech_literacy_display_upgrade() {
 							'service_section_icon_3' => array( 
 								'type' => 'icons-picker',
 								'label' => __('Choose Service Section Icons #3', 'tech-literacy'),
-								'sanitize_callback' => 'esc_html',
+								'sanitize_callback' => 'sanitize_text_field',
 							),
 							'service_3' => array(
 								'type' => 'dropdown-pages',

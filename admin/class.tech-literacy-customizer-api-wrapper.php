@@ -223,7 +223,7 @@ if( ! class_exists('Tech_Literacy_Customizer_API_Wrapper') ) {
 					break;
 				case 'icons-picker':
 					$wp_customize->add_control( 
-						new Icon_Customizer_Icon_Picker_Control(
+						new Tech_literacy_Icon_Customizer_Icon_Picker_Control(
 							$wp_customize, 
 							$field_id,
 							array(

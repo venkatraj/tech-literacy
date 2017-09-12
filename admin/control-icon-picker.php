@@ -26,7 +26,7 @@
 
 if( !function_exists('tech_literacy_icon_add_icon_picker_control') ) {
 	function tech_literacy_icon_add_icon_picker_control( $wp_customize ) {
-		class Icon_Customizer_Icon_Picker_Control extends WP_Customize_Control {
+		class Tech_literacy_Icon_Customizer_Icon_Picker_Control extends WP_Customize_Control {
 
 			public $type = 'icon-picker'; 
 	 
@@ -38,17 +38,12 @@ if( !function_exists('tech_literacy_icon_add_icon_picker_control') ) {
 
 			public function render_content() {
 			
-
+			
 			?>
-				<label data-title="Inline picker">
+				<label data-title="<?php esc_attr_e('Inline picker','tech-literacy'); ?>">
 	                <span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
 	                <input type="text" value="<?php echo esc_attr( $this->value() ); ?>" <?php $this->link(); ?> class="faip" data-placement="inline"/>
 	            </label>
-	            <script type="text/javascript">
-					jQuery(function($) {  
-						$('.faip').iconpicker();
-					});
-				</script>
 			<?php }
 
 		}

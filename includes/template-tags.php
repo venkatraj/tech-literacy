@@ -519,12 +519,12 @@ add_action( 'wp_ajax_tech_literacy_search', 'tech_literacy_search' );
 function tech_literacy_search() {
 	$value  = $_POST['text'];
 	$output = "<div class='search-dd-wrapper'><ul class='search-all-list'>";
-
+  
 		$argsAjax = array(
 	         's'  => $value, 
 	         'posts_per_page'=> -1
 	    );
-  
+    
 	    $queryAjax = new WP_Query($argsAjax);
 	    if($queryAjax->have_posts()):
 		    while ($queryAjax->have_posts()) : $queryAjax->the_post();   
@@ -533,9 +533,9 @@ function tech_literacy_search() {
 		    endwhile;
 	    endif;
 
-	   wp_reset_query();
+	   wp_reset_postdata();
 
 	$output .= "</ul></div>";
 	echo $output;
-	die(0);
+	die(0);  
 }

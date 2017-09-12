@@ -3,7 +3,7 @@ Contributors: Webulous
 Tags: education, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, translation-ready, theme-options
 Requires at least: 4.4
 Tested up to: 4.8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,12 +45,12 @@ Enable/Disable featured images visibility.
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.3 =
 * Initial Release
 
 == Upgrade Notice ==
 
-=  1.0.1 =
+=  1.0.3 =
 * Initial Release
 
 Tech Literacy WordPress Theme bundles the following third-party resources:
@@ -65,4 +65,4 @@ Tech Literacy WordPress Theme bundles the following third-party resources:
 	 https://pixabay.com/en/entrepreneur-startup-start-up-man-593371/
 	 https://pixabay.com/en/office-tax-business-finance-620822/
 * All Images inside the images folder are created by own. Those Image are licensed under CC0 Public Domain License GPLv2.
-
+* Google Fonts - Apache License, version 2.0

@@ -176,6 +176,10 @@ msgstr ""
 msgid "Full Width Template"
 msgstr ""
 
+#: admin/control-icon-picker.php:43
+msgid "Inline picker"
+msgstr ""
+
 #: includes/custom-header.php:83
 msgid "Play background video"
 msgstr ""
