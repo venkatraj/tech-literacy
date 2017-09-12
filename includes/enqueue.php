@@ -16,7 +16,7 @@ function tech_literacy_scripts() {
 		wp_enqueue_script( 'comment-reply' );   
 	}
 
-	wp_enqueue_script( 'tech-literacy-custom', get_template_directory_uri() . '/js/custom.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'tech-literacy-custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1.0.0', true );
     wp_localize_script( 'tech-literacy-custom', 'techliteracy', array(
 		'ajax_url' => admin_url( 'admin-ajax.php' )
 	));
