@@ -19,7 +19,7 @@
 .woocommerce-page input.button {
 	color: $white;
 	background: $secondary;
-}
+} 
 
 .woocommerce #content input.button:hover,
 .woocommerce #respond input#submit:hover,
@@ -78,18 +78,12 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666', endColorstr='#45484d',GradientType=0 ) !important; /* IE6-9 */
 }
 
-.woocommerce .woocommerce-info:before,
-.woocommerce-page .woocommerce-info:before,
-.woocommerce .woocommerce-message:before,
-.woocommerce-page .woocommerce-message:before {
-	background-color: #333;
-}
 
 .woocommerce .woocommerce-info,
 .woocommerce-page .woocommerce-info,
 .woocommerce .woocommerce-message,
 .woocommerce-page .woocommerce-message {
-	border-color: #333;	
+	border-color: $primary;	
 }
 
 .order-total .amount,
@@ -134,8 +128,8 @@
 }
 
 .woocommerce .woocommerce-breadcrumb a,
-.woocommerce-page .woocommerce-breadcrumb a {
-	color: $white;
+.woocommerce-page .woocommerce-breadcrumb a, .woocommerce .woocommerce-breadcrumb {
+	color: $secondary;
 }
 
 .woocommerce #content div.product .woocommerce-tabs ul.tabs li,.woocommerce div.product .woocommerce-tabs ul.tabs li,.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li,.woocommerce-page div.product .woocommerce-tabs ul.tabs li {
@@ -266,6 +260,10 @@
 	height: 2.5em;
 	line-height: 2.5;
 	width: 2em;
+	text-align:center;
+	color:$primary !important;
+	top:10px;
+	left:1em;
 }
 
 .woocommerce form .form-row input.input-text,

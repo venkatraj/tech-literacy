@@ -96,6 +96,6 @@ if ( post_password_required() ) {
 		    ),
 	    );
   
-	comment_form($comments_args); 	?> 
+	comment_form($comments_args); 	?>  
 
 </div><!-- #comments -->
