@@ -212,6 +212,7 @@ function tech_literacy_display_upgrade() {
                 </div>
             </div>
         <?php } ?>
+
  
         <?php if ( $tab == 'pro_features' ) { ?>
             <div class="pro-features-tab info-tab-content"><?php
@@ -419,9 +420,9 @@ function tech_literacy_display_upgrade() {
                             ),
 						),
 					),
-					'home' => array(
-						'title' => __('Home', 'tech-literacy'),
-						'description' => __('Home Page options', 'tech-literacy'),
+					'search-section' => array (
+						'title' => __('Search Section','tech-literacy'),
+						'description' => __('Search Section Related options','tech-literacy'),
 						'fields' => array(
 							'search_field_status' => array(   
 								'type' => 'checkbox',
@@ -435,6 +436,81 @@ function tech_literacy_display_upgrade() {
 								'sanitize_callback' => 'tech_literacy_footer_copyright',
 								'default' => __('How We Can Help You Today?', 'tech-literacy'),
 							),
+							'search_field_status_pages' => array(   
+								'type' => 'checkbox',
+								'label' => __('Enable Other Pages Search Section', 'tech-literacy'),
+								'default' => 1,
+								'sanitize_callback' => 'tech_literacy_boolean',
+							),
+							'search_box_background_color' => array(   
+								'type' => 'color',
+								'label' => __('Search Section Background Color', 'tech-literacy'),
+								'default' => '#27323d',
+								'sanitize_callback' => 'sanitize_hex_color',
+							),
+							'search_field_background_image' => array(   
+								'type' => 'checkbox',
+								'label' => __('Enable Search Section Background Image', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',
+							),
+							'search_box_background_image' => array(   
+								'type' => 'image',
+								'label' => __('Search Section Background Image', 'tech-literacy'),
+							),
+							'search_section_bg_size' => array (
+								'type' => 'select',
+								'label'    => __( 'Search Section Background Size', 'picolog' ),
+								'choices' => array(
+							        'cover'   => 'Cover', 
+							        'contain' => 'Contain', 
+							        'auto'    => 'Auto', 
+							        'inherit' => 'Inherit', 
+							    ),
+							    'default' => 'cover',
+							),
+							'search_section_bg_repeat' => array (
+								'type' => 'select',
+								'label'    => __( 'Search Section Background Repeat', 'picolog' ),
+								'choices' => array(
+							        'no-repeat' => 'No Repeat',
+							        'repeat' => 'Repeat',
+							        'repeat-x' => 'Repeat Horizontally',
+							        'repeat-y' => 'Repeat Vertically', 
+							    ),
+							    'default' => 'repeat',
+							),
+							'search_section_bg_position' => array (
+								'type' => 'select',
+								'label'    => __( 'Search Section Background position', 'picolog' ),
+								'choices' => array(
+							        'center top' => 'Center Top',
+       								'center center' => 'Center Center',
+							        'center bottom' => 'Center Bottom',
+							        'left top' => 'Left Top',
+							        'left center' => 'Left Center',
+							        'left bottom' => 'Left Bottom',
+							        'right top' => 'Right Top',
+							        'right center' => 'Right Center',
+							        'right bottom' => 'Right Bottom',	
+							    ),
+							    'default' => 'center center',
+							),
+							'search_section_bg_attachment' => array (
+								'type' => 'select',
+								'label'    => __( 'Search Section Background attachment', 'picolog' ),
+								'choices' => array(
+							        'scroll' =>'Scroll',
+        							'fixed' =>'Fixed',
+							    ),
+							    'default' => 'fixed',
+							),
+						),	
+					),
+					'home' => array(
+						'title' => __('Home', 'tech-literacy'),
+						'description' => __('Home Page options', 'tech-literacy'),
+						'fields' => array(
 							'service_field' => array(   
 								'type' => 'checkbox',
 								'label' => __('Enable Home Page Service Section', 'tech-literacy'),

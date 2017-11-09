@@ -5,7 +5,18 @@
  *
  * @package Tech Literacy
  */
- 
+
+$search_section_bg_size = get_theme_mod('search_section_bg_size','cover');
+$search_section_bg_repeat = get_theme_mod('search_section_bg_repeat','repeat');
+$search_section_bg_position = get_theme_mod('search_section_bg_position','center center');
+$search_section_bg_attachment = get_theme_mod('search_section_bg_attachment','fixed'); 
+$search_box_background_color = get_theme_mod('search_box_background_color','#27323d');
+if(get_theme_mod('search_field_background_image',true)) {
+	$search_box_background_image = get_theme_mod('search_box_background_image');
+}
+else { 
+	$search_box_background_image ='';
+}
 if ( 'posts' == get_option( 'show_on_front' ) ) { 
 	get_template_part('index');
 } else {
@@ -15,7 +26,7 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 
     if( get_theme_mod('search_field_status',true) ) {
     	$search_title = esc_html(get_theme_mod('search_heading','How We Can Help You Today?')); 
-    	echo '<div id="search-style" class="home-search-box-wrapper">
+    	echo '<div id="search-style" class="home-search-box-wrapper" style="background-color:'.$search_box_background_color.';background-image:url('. $search_box_background_image. ');background-size:'. $search_section_bg_size .'; background-repeat: '. $search_section_bg_repeat.'; background-position: '.$search_section_bg_position .'; background-attachment: '. $search_section_bg_attachment . ';"> 
     	    <h1 class="search-title">'. $search_title .'</h1>'; 
     	    get_search_form();
     	echo '</div>';

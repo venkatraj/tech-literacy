@@ -37,7 +37,7 @@
     text-align: left;
     #search {
        border-color: transparent;
-    }
+    } 
     .search-submit {
     	border-left: 1px solid $c1;
     	background: transparent;
@@ -88,6 +88,22 @@
     			color: $primary;
     		}
     	}
+    }
+    .no-title {
+        @include font-size(2.0);
+        font-weight:700;
+        padding: 25px 0px;
+        text-align:center;
+        .fa {
+            margin-right:10px;
+            color: $primary;
+            @include font-size(1.8);
+        }
+    }
+    .no-page {
+        border: 1px solid $primary;
+        background-color: $white;
+        padding: 0px 20px;
     }
   }
 }

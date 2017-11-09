@@ -76,7 +76,7 @@ msgstr ""
 msgid "Theme: Tech Literacy by <a href=\"%1$s\" target=\"_blank\" rel=\"designer\">Webulous Themes</a></p>"
 msgstr ""
 
-#: front-page.php:71, front-page.php:107, template-parts/content-single.php:36, template-parts/content.php:46
+#: front-page.php:82, front-page.php:118, template-parts/content-single.php:36, template-parts/content.php:46
 msgid "Pages: "
 msgstr ""
 
@@ -554,11 +554,11 @@ msgid "HTML Allowed. <b>This field is even HTML validated! </b>"
 msgstr ""
 
 #: includes/options-config.php:423
-msgid "Home"
+msgid "Search Section"
 msgstr ""
 
 #: includes/options-config.php:424
-msgid "Home Page options"
+msgid "Search Section Related options"
 msgstr ""
 
 #: includes/options-config.php:428
@@ -574,130 +574,154 @@ msgid "How We Can Help You Today?"
 msgstr ""
 
 #: includes/options-config.php:440
-msgid "Enable Home Page Service Section"
+msgid "Enable Other Pages Search Section"
 msgstr ""
 
 #: includes/options-config.php:446
-msgid "Choose Service Section Icons #1"
+msgid "Search Section Background Color"
 msgstr ""
 
-#: includes/options-config.php:451
-msgid "Service Section #1"
+#: includes/options-config.php:452
+msgid "Enable Search Section Background Image"
 msgstr ""
 
-#: includes/options-config.php:456
-msgid "Service #1 Color"
+#: includes/options-config.php:458
+msgid "Search Section Background Image"
 msgstr ""
 
-#: includes/options-config.php:462
-msgid "Choose Service Section Icons #2"
+#: includes/options-config.php:510
+msgid "Home"
 msgstr ""
 
-#: includes/options-config.php:467
-msgid "Service Section #2"
-msgstr ""
-
-#: includes/options-config.php:472
-msgid "Service #2 Color"
-msgstr ""
-
-#: includes/options-config.php:478
-msgid "Choose Service Section Icons #3"
-msgstr ""
-
-#: includes/options-config.php:483
-msgid "Service Section #3"
-msgstr ""
-
-#: includes/options-config.php:488
-msgid "Service #3 Color"
-msgstr ""
-
-#: includes/options-config.php:494
-msgid "Enable Home Page Recent Post Section"
-msgstr ""
-
-#: includes/options-config.php:495
-msgid "Enable recent post section in home page"
-msgstr ""
-
-#: includes/options-config.php:501
-msgid "No. of Recent Posts"
-msgstr ""
-
-#: includes/options-config.php:507
-msgid "Enable Home Page Default Content"
-msgstr ""
-
-#: includes/options-config.php:508
-msgid "Enable home page default content"
+#: includes/options-config.php:511
+msgid "Home Page options"
 msgstr ""
 
 #: includes/options-config.php:515
-msgid "Blog"
+msgid "Enable Home Page Service Section"
 msgstr ""
 
-#: includes/options-config.php:516
-msgid "Blog Related Posts options"
-msgstr ""
-
-#: includes/options-config.php:520
-msgid "Enable Featured Image"
+#: includes/options-config.php:521
+msgid "Choose Service Section Icons #1"
 msgstr ""
 
 #: includes/options-config.php:526
-msgid "Choose the featured image display type for Blog Page "
+msgid "Service Section #1"
 msgstr ""
 
-#: includes/options-config.php:528, includes/options-config.php:544
-msgid "Large Featured Image"
+#: includes/options-config.php:531
+msgid "Service #1 Color"
 msgstr ""
 
-#: includes/options-config.php:529, includes/options-config.php:545
-msgid "Small Featured Image"
-msgstr ""
-
-#: includes/options-config.php:536
-msgid "Enable Single Post Featured Image"
+#: includes/options-config.php:537
+msgid "Choose Service Section Icons #2"
 msgstr ""
 
 #: includes/options-config.php:542
-msgid "Choose the featured image display type for Single Page "
+msgid "Service Section #2"
 msgstr ""
 
-#: includes/options-config.php:552
-msgid " Enable Author Bio Box below single post"
+#: includes/options-config.php:547
+msgid "Service #2 Color"
 msgstr ""
 
 #: includes/options-config.php:553
-msgid "Show Author information box below single post."
+msgid "Choose Service Section Icons #3"
 msgstr ""
 
-#: includes/options-config.php:559
-msgid "Show Related posts"
+#: includes/options-config.php:558
+msgid "Service Section #3"
 msgstr ""
 
-#: includes/options-config.php:560
-msgid "Show related posts."
-msgstr ""
-
-#: includes/options-config.php:566
-msgid "Related Posts Must Be Shown As:"
-msgstr ""
-
-#: includes/options-config.php:568
-msgid "Related Posts By Tags"
+#: includes/options-config.php:563
+msgid "Service #3 Color"
 msgstr ""
 
 #: includes/options-config.php:569
-msgid "Related Posts By Categories"
+msgid "Enable Home Page Recent Post Section"
+msgstr ""
+
+#: includes/options-config.php:570
+msgid "Enable recent post section in home page"
 msgstr ""
 
 #: includes/options-config.php:576
+msgid "No. of Recent Posts"
+msgstr ""
+
+#: includes/options-config.php:582
+msgid "Enable Home Page Default Content"
+msgstr ""
+
+#: includes/options-config.php:583
+msgid "Enable home page default content"
+msgstr ""
+
+#: includes/options-config.php:590
+msgid "Blog"
+msgstr ""
+
+#: includes/options-config.php:591
+msgid "Blog Related Posts options"
+msgstr ""
+
+#: includes/options-config.php:595
+msgid "Enable Featured Image"
+msgstr ""
+
+#: includes/options-config.php:601
+msgid "Choose the featured image display type for Blog Page "
+msgstr ""
+
+#: includes/options-config.php:603, includes/options-config.php:619
+msgid "Large Featured Image"
+msgstr ""
+
+#: includes/options-config.php:604, includes/options-config.php:620
+msgid "Small Featured Image"
+msgstr ""
+
+#: includes/options-config.php:611
+msgid "Enable Single Post Featured Image"
+msgstr ""
+
+#: includes/options-config.php:617
+msgid "Choose the featured image display type for Single Page "
+msgstr ""
+
+#: includes/options-config.php:627
+msgid " Enable Author Bio Box below single post"
+msgstr ""
+
+#: includes/options-config.php:628
+msgid "Show Author information box below single post."
+msgstr ""
+
+#: includes/options-config.php:634
+msgid "Show Related posts"
+msgstr ""
+
+#: includes/options-config.php:635
+msgid "Show related posts."
+msgstr ""
+
+#: includes/options-config.php:641
+msgid "Related Posts Must Be Shown As:"
+msgstr ""
+
+#: includes/options-config.php:643
+msgid "Related Posts By Tags"
+msgstr ""
+
+#: includes/options-config.php:644
+msgid "Related Posts By Categories"
+msgstr ""
+
+#: includes/options-config.php:651
 msgid " Show Comments"
 msgstr ""
 
-#: includes/options-config.php:577
+#: includes/options-config.php:652
 msgid "Show Comments"
 msgstr ""
 
@@ -827,6 +851,10 @@ msgstr ""
 #: includes/template-tags.php:508
 msgctxt "submit button"
 msgid "Search"
+msgstr ""
+
+#: includes/template-tags.php:539
+msgid "The Searching Page couldn&apos;t found!!"
 msgstr ""
 
 #: template-parts/content-none.php:14

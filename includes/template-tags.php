@@ -518,24 +518,30 @@ add_action( 'wp_ajax_tech_literacy_search', 'tech_literacy_search' );
 
 function tech_literacy_search() {
 	$value  = $_POST['text'];
-	$output = "<div class='search-dd-wrapper'><ul class='search-all-list'>";
-  
-		$argsAjax = array(
+	$output = "<div class='search-wrapper'>";
+
+		$argsAjax = array( 
 	         's'  => $value, 
-	         'posts_per_page'=> -1
+	         'posts_per_page'=> -1 
 	    );
-    
+  
 	    $queryAjax = new WP_Query($argsAjax);
-	    if($queryAjax->have_posts()):
+	    if($queryAjax->have_posts()) {
+	    	$output = "<div class='search-dd-wrapper'><ul class='search-all-list'>";
 		    while ($queryAjax->have_posts()) : $queryAjax->the_post();   
 		        $output .= '<li><h5 class="search-title"><i class="fa fa-file-text" aria-hidden="true"></i><a href="' .get_permalink().'">'.get_the_title().'</a></h5>';
 		        $output .=  get_the_excerpt() .'</li>';
 		    endwhile;
-	    endif;
-
-	   wp_reset_postdata();
-
-	$output .= "</ul></div>";
+		    $output .= "</ul></div>";
+	    }
+	    else {
+	    	$output .= '<div class="no-page"><h5 class="no-title"><i class="fa fa-file-text" aria-hidden="true"></i>';
+	    	$output .= apply_filters('search_section_pagent_found',__('The Searching Page couldn&apos;t found!!','tech-literacy'));
+	    	$output .= '</h5></div>';
+	    }
+	    
+	   wp_reset_query();
+	$output .= "</div>";
 	echo $output;
-	die(0);  
+	die(0);
 }

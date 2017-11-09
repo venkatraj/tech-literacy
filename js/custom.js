@@ -10,10 +10,10 @@
 
 		$( document ).on( 'keyup', '#search-style #theme-live-search #search', function() {
 			var keyValue = $(this).val();
-		    if(keyValue){  
+		    if(keyValue){ 
 				$.ajax({
 					url : techliteracy.ajax_url,
-					type : 'post',  
+					type : 'post',
 					data : {
 						action : 'tech_literacy_search',
 						text : keyValue
@@ -26,9 +26,10 @@
 				return false;
 		     }else {
 		     	$('#search_dropdown_list').html( '' );
-		     }		
-		});
+		     }
+			
+		});          
 
-
+ 
 })(jQuery);   
  

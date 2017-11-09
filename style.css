@@ -4,7 +4,7 @@ Theme URI: http://www.webulousthemes.com/tech-literacy/
 Author: N. Venkat Raj  
 Author URI: http://www.webulousthemes.com/
 Description: Tech Literacy is a free, clean, minimalistic, responsive, mobile-friendly WordPress theme. Tech Literacy suitable for education, literacy websites, online stores, personal portfolio, agencies, start-ups. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly. Theme includes lots of features like Drag & Drop page builder. 
-Version: 1.0.5   
+Version: 1.0.6   
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: tech-literacy
@@ -660,7 +660,6 @@ input[type="submit"] {
   line-height: 1;
   padding: 0.8em 1.5em;
   color: #fff;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   border-radius: 3px; }
 
@@ -780,7 +779,6 @@ dd {
 a {
   color: #e74b3c;
   text-decoration: none;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   a:visited {
     color: #e74b3c; }
@@ -2041,13 +2039,10 @@ blockquote, q {
   text-align: center;
   z-index: 100;
   /* ff3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(19, 19, 19, 0)), color-stop(0%, rgba(19, 19, 19, 0)), color-stop(5%, rgba(19, 19, 19, 0)), color-stop(10%, rgba(19, 19, 19, 0.1)), color-stop(43%, rgba(19, 19, 19, 0.4)), color-stop(43%, rgba(19, 19, 19, 0.4)), color-stop(47%, rgba(19, 19, 19, 0.38)), color-stop(89%, rgba(18, 17, 18, 0.15)), color-stop(98%, rgba(18, 17, 18, 0)), color-stop(100%, rgba(18, 17, 18, 0)), color-stop(100%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(18, 17, 18, 0)));
   /* safari4+,chrome */
-  background: -webkit-linear-gradient(0deg, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 5%, rgba(19, 19, 19, 0.1) 10%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.38) 47%, rgba(18, 17, 18, 0.15) 89%, rgba(18, 17, 18, 0) 98%, rgba(18, 17, 18, 0) 100%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.1) 100%, rgba(18, 17, 18, 0) 100%);
   /* safari5.1+,chrome10+ */
   /* opera 11.10+ */
   /* ie10+ */
-  background: -webkit-linear-gradient(left, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 5%, rgba(19, 19, 19, 0.1) 10%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.38) 47%, rgba(18, 17, 18, 0.15) 89%, rgba(18, 17, 18, 0) 98%, rgba(18, 17, 18, 0) 100%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.1) 100%, rgba(18, 17, 18, 0) 100%);
   background: linear-gradient(90deg, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 0%, rgba(19, 19, 19, 0) 5%, rgba(19, 19, 19, 0.1) 10%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.4) 43%, rgba(19, 19, 19, 0.38) 47%, rgba(18, 17, 18, 0.15) 89%, rgba(18, 17, 18, 0) 98%, rgba(18, 17, 18, 0) 100%, rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.1) 100%, rgba(18, 17, 18, 0) 100%);
   /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#121112',GradientType=1 );
@@ -2094,7 +2089,6 @@ blockquote, q {
 .woocommerce table.cart input,
 .woocommerce-page #content table.cart input,
 .woocommerce-page table.cart input {
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 .woocommerce #content input.button,
@@ -2137,9 +2131,7 @@ blockquote, q {
   background: #272727 !important;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #272727), color-stop(100%, #45484d)) !important;
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #272727 0%, #45484d 100%) !important;
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2163,9 +2155,7 @@ blockquote, q {
   background: #666 !important;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #45484d), color-stop(100%, #45484d)) !important;
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #666 0%, #45484d 100%) !important;
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2189,9 +2179,7 @@ blockquote, q {
   background: #f2f9fe;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f9fe), color-stop(100%, #d6f0fd));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2229,9 +2217,7 @@ blockquote, q {
   background: #f2f9fe;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f2f9fe), color-stop(100%, #d6f0fd));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f2f9fe 0%, #d6f0fd 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2273,9 +2259,7 @@ blockquote, q {
   background: #fceabb;
   /* Old browsers */
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fceabb), color-stop(50%, #fccd4d), color-stop(51%, #f8b500), color-stop(100%, #fbdf93));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
   /* Chrome10+,Safari5.1+ */
   /* Opera 11.10+ */
   /* IE10+ */
@@ -2644,7 +2628,6 @@ blockquote, q {
 
 .widget-area ul li {
   list-style: none;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   color: #4b4f56; }
   .widget-area ul li li {
@@ -2869,6 +2852,21 @@ blockquote, q {
       padding-left: 15px; }
       #search-style #search_dropdown_list .search-dd-wrapper a:hover {
         color: #e74b3c; }
+  #search-style #search_dropdown_list .no-title {
+    font-size: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 25px 0px;
+    text-align: center; }
+    #search-style #search_dropdown_list .no-title .fa {
+      margin-right: 10px;
+      color: #e74b3c;
+      font-size: 18px;
+      font-size: 1.8rem; }
+  #search-style #search_dropdown_list .no-page {
+    border: 1px solid #e74b3c;
+    background-color: #fff;
+    padding: 0px 20px; }
 
 .widget-area .textwidget select {
   padding: 5px 10px;
@@ -2931,7 +2929,6 @@ blockquote, q {
     .site-footer .footer-widgets ul li {
       padding-bottom: 5px;
       padding-top: 5px;
-      -webkit-transition: all 0.5s ease;
       transition: all 0.5s ease; }
     .site-footer .footer-widgets .calendar_wrap td, .site-footer .footer-widgets .calendar_wrap th {
       color: #fff; }
