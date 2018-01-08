@@ -55,6 +55,10 @@ function tech_literacy_setup() {
 		 'comment-list', 'gallery', 'caption',
 	) );
 
+
+	add_theme_support( 'post-formats', array(
+		'aside', 'image', 'video', 'quote', 'link',
+	) );
     /**
 	 * Set the content width in pixels, based on the theme's design and stylesheet.
 	 */

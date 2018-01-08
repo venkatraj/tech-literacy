@@ -1,4 +1,4 @@
-# Copyright (C) 2017 Tech Literacy
+# Copyright (C) 2018 Tech Literacy
 # This file is distributed under the same license as the Tech Literacy package.
 msgid ""
 msgstr ""
@@ -28,7 +28,7 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: comments.php:35, comments.php:52
+#: comments.php:35, comments.php:53
 msgid "Comment navigation"
 msgstr ""
 
@@ -36,35 +36,35 @@ msgstr ""
 msgid " Previous Comments"
 msgstr ""
 
-#: comments.php:37, comments.php:54
+#: comments.php:37, comments.php:55
 msgid "Next Comments"
 msgstr ""
 
-#: comments.php:53
+#: comments.php:54
 msgid "Previous Comments"
 msgstr ""
 
-#: comments.php:64
+#: comments.php:65
 msgid "Comments are closed."
 msgstr ""
 
-#: comments.php:73
+#: comments.php:74
 msgid "Post Comments"
 msgstr ""
 
-#: comments.php:75
+#: comments.php:76
 msgid "Leave a Comment"
 msgstr ""
 
-#: comments.php:83
+#: comments.php:84
 msgid "Name"
 msgstr ""
 
-#: comments.php:88
+#: comments.php:89
 msgid "Email"
 msgstr ""
 
-#: comments.php:93
+#: comments.php:94
 msgid "Website"
 msgstr ""
 
@@ -84,79 +84,79 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:107
+#: functions.php:111
 msgid "<ul><li><i class=\"fa fa-envelope-o\"></i><a href=\"mailto:information@mail.com\">information@mail.com</a></li> <li><i class=\"fa fa-phone\"></i> Call Us:(1)118 234 678</li></ul>"
 msgstr ""
 
-#: functions.php:120
+#: functions.php:124
 msgid "<ul><li><a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li><li><a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li><li><a href=\"#\"><i class=\"fa fa-pinterest\"></i></a></li><li><a href=\"#\"><i class=\"fa fa-tumblr\"></i></a></li></ul>"
 msgstr ""
 
-#: functions.php:131
+#: functions.php:135
 msgid "<i class=\"fa fa-phone twelve columns\"></i><p class=\"four columns align-left\">call us now<br><span class=\"clr-primary\">715.248.1574</span></p>"
 msgstr ""
 
-#: functions.php:142
+#: functions.php:146
 msgid "About Theme"
 msgstr ""
 
-#: functions.php:143
+#: functions.php:147
 msgid "Tech Literacy is a free, clean, minimalistic, responsive, mobile-friendly WordPress theme. Tech Literacy suitable for education, literacy websites, online stores, personal portfolio, agencies, start-ups and many others."
 msgstr ""
 
-#: functions.php:180, functions.php:186, functions.php:192
+#: functions.php:184, functions.php:190, functions.php:196
 msgid "Lorem Ipsum"
 msgstr ""
 
-#: functions.php:181, functions.php:187, functions.php:193
+#: functions.php:185, functions.php:191, functions.php:197
 msgid "Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur"
 msgstr ""
 
-#: functions.php:198
+#: functions.php:202
 msgid "Service 1"
 msgstr ""
 
-#: functions.php:199, functions.php:205, functions.php:211
+#: functions.php:203, functions.php:209, functions.php:215
 msgid "You haven't created any service page yet. Create Page. Go to Customizer and click Theme Options => Home => Service Section #1 and select page from  dropdown page list.<!--more-->"
 msgstr ""
 
-#: functions.php:204
+#: functions.php:208
 msgid "Service 2"
 msgstr ""
 
-#: functions.php:210
+#: functions.php:214
 msgid "Service 3"
 msgstr ""
 
-#: functions.php:220, functions.php:224, functions.php:228
+#: functions.php:224, functions.php:228, functions.php:232
 msgid "blog one"
 msgstr ""
 
-#: functions.php:232
+#: functions.php:236
 msgid "Page Images"
 msgstr ""
 
-#: functions.php:271
+#: functions.php:275
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:281
+#: functions.php:285
 msgid "Top Left"
 msgstr ""
 
-#: functions.php:291
+#: functions.php:295
 msgid "Top Right"
 msgstr ""
 
-#: functions.php:301
+#: functions.php:305
 msgid "Header Top Right"
 msgstr ""
 
-#: functions.php:311
+#: functions.php:315
 msgid "Footer %d"
 msgstr ""
 
-#: functions.php:321
+#: functions.php:325
 msgid "Footer Nav"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgstr ""
 msgid "Theme offers many different page layouts so you can quickly and easily create your pages with no hassle!"
 msgstr ""
 
-#: includes/options-config.php:6, includes/options-config.php:314
+#: includes/options-config.php:6, includes/options-config.php:326
 msgid "Unlimited Sidebar"
 msgstr ""
 
@@ -305,7 +305,7 @@ msgstr ""
 msgid "Want your users to stay in touch? No problem, Theme has Social Media icons all throughout the theme!"
 msgstr ""
 
-#: includes/options-config.php:30, includes/options-config.php:284
+#: includes/options-config.php:30, includes/options-config.php:296
 msgid "Google Map"
 msgstr ""
 
@@ -373,355 +373,359 @@ msgstr ""
 msgid "Free VS PRO"
 msgstr ""
 
-#: includes/options-config.php:185
+#: includes/options-config.php:190
+msgid "Image"
+msgstr ""
+
+#: includes/options-config.php:196
 msgid "Theme Customizer"
 msgstr ""
 
-#: includes/options-config.php:186
+#: includes/options-config.php:197
 msgid "%s supports the Theme Customizer for all theme settings. Click \"Customize\" to start customize your site."
 msgstr ""
 
-#: includes/options-config.php:188
+#: includes/options-config.php:199
 msgid "Start Customize"
 msgstr ""
 
-#: includes/options-config.php:192
+#: includes/options-config.php:203
 msgid "Theme Documentation"
 msgstr ""
 
-#: includes/options-config.php:193
+#: includes/options-config.php:204
 msgid "Need any help to setup and configure %s? Please have a look at our documentations instructions."
 msgstr ""
 
-#: includes/options-config.php:195
+#: includes/options-config.php:206
 msgid " Documentation"
 msgstr ""
 
-#: includes/options-config.php:200
+#: includes/options-config.php:211
 msgid "Having Trouble, Need Support?"
 msgstr ""
 
-#: includes/options-config.php:201
+#: includes/options-config.php:212
 msgid "Support for %s WordPress theme is conducted through Webulous free support ticket system."
 msgstr ""
 
-#: includes/options-config.php:239
+#: includes/options-config.php:251
 msgid "Flex Slider"
 msgstr ""
 
-#: includes/options-config.php:244
+#: includes/options-config.php:256
 msgid "Support"
 msgstr ""
 
-#: includes/options-config.php:249
+#: includes/options-config.php:261
 msgid "Responsive Design"
 msgstr ""
 
-#: includes/options-config.php:254
+#: includes/options-config.php:266
 msgid "Custom Logo Option"
 msgstr ""
 
-#: includes/options-config.php:259
+#: includes/options-config.php:271
 msgid "Social Links"
 msgstr ""
 
-#: includes/options-config.php:264
+#: includes/options-config.php:276
 msgid "Unlimited color option"
 msgstr ""
 
-#: includes/options-config.php:269
+#: includes/options-config.php:281
 msgid "Elastic Slider"
 msgstr ""
 
-#: includes/options-config.php:274
+#: includes/options-config.php:286
 msgid "Page Builder Support"
 msgstr ""
 
-#: includes/options-config.php:279
+#: includes/options-config.php:291
 msgid "Page Templates"
 msgstr ""
 
-#: includes/options-config.php:289
+#: includes/options-config.php:301
 msgid "Demo Content"
 msgstr ""
 
-#: includes/options-config.php:294
+#: includes/options-config.php:306
 msgid "Polylang Compatible"
 msgstr ""
 
-#: includes/options-config.php:299
+#: includes/options-config.php:311
 msgid "Multiple Portfolio Layouts"
 msgstr ""
 
-#: includes/options-config.php:304
+#: includes/options-config.php:316
 msgid "Multiple Blog Layouts"
 msgstr ""
 
-#: includes/options-config.php:309
+#: includes/options-config.php:321
 msgid "Page Animation"
 msgstr ""
 
-#: includes/options-config.php:321
+#: includes/options-config.php:333
 msgid "Buy %1s Pro"
 msgstr ""
 
-#: includes/options-config.php:340, includes/options-config.php:341
+#: includes/options-config.php:352, includes/options-config.php:353
 msgid "Theme Options"
 msgstr ""
 
-#: includes/options-config.php:344
+#: includes/options-config.php:356
 msgid "General"
 msgstr ""
 
-#: includes/options-config.php:345
+#: includes/options-config.php:357
 msgid "General settings that affects overall site"
 msgstr ""
 
-#: includes/options-config.php:349
+#: includes/options-config.php:361
 msgid "Enable Breadcrumb"
 msgstr ""
 
-#: includes/options-config.php:355
+#: includes/options-config.php:367
 msgid "Select Breadcrumb Character"
 msgstr ""
 
-#: includes/options-config.php:366
+#: includes/options-config.php:378
 msgid "Enable Numeric Page Navigation"
 msgstr ""
 
-#: includes/options-config.php:367
+#: includes/options-config.php:379
 msgid "Check to display numeric page navigation, instead of Previous Posts / Next Posts links."
 msgstr ""
 
-#: includes/options-config.php:373
+#: includes/options-config.php:385
 msgid "Website Layout Options"
 msgstr ""
 
-#: includes/options-config.php:374
+#: includes/options-config.php:386
 msgid "Select main content and sidebar alignment."
 msgstr ""
 
-#: includes/options-config.php:376
+#: includes/options-config.php:388
 msgid "Sidebar Left"
 msgstr ""
 
-#: includes/options-config.php:377
+#: includes/options-config.php:389
 msgid "Sidebar Right"
 msgstr ""
 
-#: includes/options-config.php:378
+#: includes/options-config.php:390
 msgid "Full Width"
 msgstr ""
 
-#: includes/options-config.php:379
+#: includes/options-config.php:391
 msgid "No Sidebar"
 msgstr ""
 
-#: includes/options-config.php:387
+#: includes/options-config.php:399
 msgid "Header"
 msgstr ""
 
-#: includes/options-config.php:388
+#: includes/options-config.php:400
 msgid "Header options"
 msgstr ""
 
-#: includes/options-config.php:392
+#: includes/options-config.php:404
 msgid "Logo as Title"
 msgstr ""
 
-#: includes/options-config.php:398
+#: includes/options-config.php:410
 msgid "Show site Tagline"
 msgstr ""
 
-#: includes/options-config.php:405
+#: includes/options-config.php:417
 msgid "Footer"
 msgstr ""
 
-#: includes/options-config.php:406
+#: includes/options-config.php:418
 msgid "Footer related options"
 msgstr ""
 
-#: includes/options-config.php:410
+#: includes/options-config.php:422
 msgid "Footer Widget Area"
 msgstr ""
 
-#: includes/options-config.php:416
+#: includes/options-config.php:428
 msgid "Footer Copyright Text (Validated that it's HTML Allowed)"
 msgstr ""
 
-#: includes/options-config.php:417
+#: includes/options-config.php:429
 msgid "HTML Allowed. <b>This field is even HTML validated! </b>"
 msgstr ""
 
-#: includes/options-config.php:423
+#: includes/options-config.php:435
 msgid "Search Section"
 msgstr ""
 
-#: includes/options-config.php:424
+#: includes/options-config.php:436
 msgid "Search Section Related options"
 msgstr ""
 
-#: includes/options-config.php:428
+#: includes/options-config.php:440
 msgid "Enable Home Page Search Section"
 msgstr ""
 
-#: includes/options-config.php:434
+#: includes/options-config.php:446
 msgid "Search Heading"
 msgstr ""
 
-#: includes/options-config.php:436
+#: includes/options-config.php:448
 msgid "How We Can Help You Today?"
 msgstr ""
 
-#: includes/options-config.php:440
+#: includes/options-config.php:452
 msgid "Enable Other Pages Search Section"
 msgstr ""
 
-#: includes/options-config.php:446
+#: includes/options-config.php:458
 msgid "Search Section Background Color"
 msgstr ""
 
-#: includes/options-config.php:452
+#: includes/options-config.php:464
 msgid "Enable Search Section Background Image"
 msgstr ""
 
-#: includes/options-config.php:458
+#: includes/options-config.php:470
 msgid "Search Section Background Image"
 msgstr ""
 
-#: includes/options-config.php:510
+#: includes/options-config.php:522
 msgid "Home"
 msgstr ""
 
-#: includes/options-config.php:511
+#: includes/options-config.php:523
 msgid "Home Page options"
 msgstr ""
 
-#: includes/options-config.php:515
+#: includes/options-config.php:527
 msgid "Enable Home Page Service Section"
 msgstr ""
 
-#: includes/options-config.php:521
+#: includes/options-config.php:533
 msgid "Choose Service Section Icons #1"
 msgstr ""
 
-#: includes/options-config.php:526
+#: includes/options-config.php:538
 msgid "Service Section #1"
 msgstr ""
 
-#: includes/options-config.php:531
+#: includes/options-config.php:543
 msgid "Service #1 Color"
 msgstr ""
 
-#: includes/options-config.php:537
+#: includes/options-config.php:549
 msgid "Choose Service Section Icons #2"
 msgstr ""
 
-#: includes/options-config.php:542
+#: includes/options-config.php:554
 msgid "Service Section #2"
 msgstr ""
 
-#: includes/options-config.php:547
+#: includes/options-config.php:559
 msgid "Service #2 Color"
 msgstr ""
 
-#: includes/options-config.php:553
+#: includes/options-config.php:565
 msgid "Choose Service Section Icons #3"
 msgstr ""
 
-#: includes/options-config.php:558
+#: includes/options-config.php:570
 msgid "Service Section #3"
 msgstr ""
 
-#: includes/options-config.php:563
+#: includes/options-config.php:575
 msgid "Service #3 Color"
 msgstr ""
 
-#: includes/options-config.php:569
+#: includes/options-config.php:581
 msgid "Enable Home Page Recent Post Section"
 msgstr ""
 
-#: includes/options-config.php:570
+#: includes/options-config.php:582
 msgid "Enable recent post section in home page"
 msgstr ""
 
-#: includes/options-config.php:576
+#: includes/options-config.php:588
 msgid "No. of Recent Posts"
 msgstr ""
 
-#: includes/options-config.php:582
+#: includes/options-config.php:594
 msgid "Enable Home Page Default Content"
 msgstr ""
 
-#: includes/options-config.php:583
+#: includes/options-config.php:595
 msgid "Enable home page default content"
 msgstr ""
 
-#: includes/options-config.php:590
+#: includes/options-config.php:602
 msgid "Blog"
 msgstr ""
 
-#: includes/options-config.php:591
+#: includes/options-config.php:603
 msgid "Blog Related Posts options"
 msgstr ""
 
-#: includes/options-config.php:595
+#: includes/options-config.php:607
 msgid "Enable Featured Image"
 msgstr ""
 
-#: includes/options-config.php:601
+#: includes/options-config.php:613
 msgid "Choose the featured image display type for Blog Page "
 msgstr ""
 
-#: includes/options-config.php:603, includes/options-config.php:619
+#: includes/options-config.php:615, includes/options-config.php:631
 msgid "Large Featured Image"
 msgstr ""
 
-#: includes/options-config.php:604, includes/options-config.php:620
+#: includes/options-config.php:616, includes/options-config.php:632
 msgid "Small Featured Image"
 msgstr ""
 
-#: includes/options-config.php:611
+#: includes/options-config.php:623
 msgid "Enable Single Post Featured Image"
 msgstr ""
 
-#: includes/options-config.php:617
+#: includes/options-config.php:629
 msgid "Choose the featured image display type for Single Page "
 msgstr ""
 
-#: includes/options-config.php:627
+#: includes/options-config.php:639
 msgid " Enable Author Bio Box below single post"
 msgstr ""
 
-#: includes/options-config.php:628
+#: includes/options-config.php:640
 msgid "Show Author information box below single post."
 msgstr ""
 
-#: includes/options-config.php:634
+#: includes/options-config.php:646
 msgid "Show Related posts"
 msgstr ""
 
-#: includes/options-config.php:635
+#: includes/options-config.php:647
 msgid "Show related posts."
 msgstr ""
 
-#: includes/options-config.php:641
+#: includes/options-config.php:653
 msgid "Related Posts Must Be Shown As:"
 msgstr ""
 
-#: includes/options-config.php:643
+#: includes/options-config.php:655
 msgid "Related Posts By Tags"
 msgstr ""
 
-#: includes/options-config.php:644
+#: includes/options-config.php:656
 msgid "Related Posts By Categories"
 msgstr ""
 
-#: includes/options-config.php:651
+#: includes/options-config.php:663
 msgid " Show Comments"
 msgstr ""
 
-#: includes/options-config.php:652
+#: includes/options-config.php:664
 msgid "Show Comments"
 msgstr ""
 
