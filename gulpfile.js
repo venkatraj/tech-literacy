@@ -11,6 +11,8 @@ var del = require('del');
 var wpPot = require('gulp-wp-pot'); // For generating the .pot file.
 var sort = require('gulp-sort'); // Recommended to prevent unnecessary changes in pot-file.  
 var zip = require('gulp-zip'); 
+var rtlcss = require('gulp-rtlcss'); // RTL Support 
+var stripCssComments = require('gulp-strip-css-comments'); //remove comments in css file
  
 
 /* zip file */
@@ -32,7 +34,15 @@ gulp.task( 'translate', function () {
        } ))
       .pipe(gulp.dest('languages/tech-literacy.pot'))
 });       
-           
+        
+/* RTL Support */
+gulp.task('rtl', ['styles'], function () { 
+  return gulp.src('style.css')
+    .pipe(rtlcss())   
+    .pipe(rename({  basename: "rtl" })) // Base(file) name "rtl" 
+    .pipe(stripCssComments())
+    .pipe(gulp.dest(''));  
+});  
      
 //Script task
 gulp.task('scripts',function(){  
@@ -65,19 +75,19 @@ gulp.task('images', function() {
 
 // Clean
 gulp.task('clean', function() {
-  return del(['images']);    
+  return del(['images','languages/tech-literacy.pot','rtl.css']);      
 }); 
 
 
 // Default task
 gulp.task('default',['clean'] , function() {
-  gulp.start('styles', 'images', 'translate');
+  gulp.start('styles', 'images', 'translate','rtl');
 });   
 
 
 //watch task
 gulp.task('watch',function(){  
-   gulp.watch('sass/**/*.scss',['styles']);    
+   gulp.watch('sass/**/*.scss',['styles','rtl']);    
    gulp.watch('dist/images/**/*.+(png|jpg|jpeg|gif|svg)',['images']);
 });
 

@@ -60,9 +60,9 @@ function tech_literacy_header_style() {
 				.wp-custom-header iframe,
 				.wp-custom-header video {
 				      display: block;
-				      //height: auto;
-				      max-width: 100%;
-				      height: 100vh;
+				      height: auto;
+					  max-width: 100%;
+					  object-fit: cover;
 				      width: 100vw;
 				      overflow: hidden;
 				}

@@ -256,6 +256,7 @@ if( ! class_exists('Tech_Literacy_Customizer_API_Wrapper') ) {
 						$field_id,
 						array(
 							'label' => isset($label) ? $label : '',
+							'description' => isset($description) ? $description : '',
 							'type' => isset($type) ? $type : 'text',
 							'setting' => $field_id,
 							'section' => $this->_section_id,

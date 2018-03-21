@@ -48,7 +48,7 @@
 }
 
 
-a[href="themes.php?page=tech_literacy_upgrade"] { 
+a[href="themes.php?page=tech_literacy_upgrade"] {
   font-weight: 700!important; 
 } 
 
@@ -256,6 +256,11 @@ a[href="themes.php?page=tech_literacy_upgrade"] {
   top:30px;
   right:35px;
 }
+#webulous-create-web a {
+  text-decoration: none;
+  box-shadow: none;
+}
+
 #webulous-create-web h3 {
   margin-bottom: 15px;
   font-size: 30px;

@@ -159,15 +159,15 @@ function tech_literacy_display_upgrade() {
         $tab = null;
     }  
      
-    $pro_theme_url = 'https://webulousthemes.com/theme/tech-literacy-pro/';
+    $pro_theme_url = 'https://www.webulousthemes.com/theme/tech-literacy-pro/';
     $doc_url  = 'https://www.webulousthemes.com/tech-literacy-free';
-    $support_url = 'https://webulousthemes.com/free-support-request/'; 
+    $support_url = 'https://www.webulousthemes.com/free-support-request/'; 
 
     $current_action_link =  admin_url( 'themes.php?page=tech_literacy_upgrade&tab=pro_features' ); ?>
     <div class="tech-literacy-wrapper about-wrap">
         <h1><?php printf(esc_html__('Welcome to %1$s - Version %2$s', 'tech-literacy'), $theme_data->Name ,$theme_data->Version ); ?></h1><?php
        	printf( __('<div class="about-text"> Tech Literacy is a free, clean, minimalistic, responsive, mobile-friendly WordPress theme. Tech Literacy suitable for education, literacy websites, online stores, personal portfolio, agencies, start-ups. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly. Theme includes lots of features like Drag & Drop page builder. </div>', 'tech-literacy') ); ?>
-        <a href="https://webulousthemes.com/" target="_blank" class="wp-badge welcome-logo"></a>   
+        <a href="https://www.webulousthemes.com/" target="_blank" class="wp-badge welcome-logo"></a>   
         <p class="upgrade-btn"><a class="upgrade" href="<?php echo esc_url($pro_theme_url); ?>" target="_blank"><?php printf( __( 'Buy %1s Pro - $39', 'tech-literacy'), $theme_data->Name ); ?></a></p>
 
 	   <h2 class="nav-tab-wrapper">
@@ -181,15 +181,14 @@ function tech_literacy_display_upgrade() {
             <div class="theme_info info-tab-content">
                 <div class="theme_info_column clearfix">
                 	<div id="webulous-create-web">
-						<div id="webulous-mode-wrap">
-						    <h3>New to Creating a Website?</h3> 
-						    <p>We will build you a complete website based on the theme you selected. We will populate content, change colors and do any look and feel customisation work you prefer.</p>
-						</div>
-						<div class="image-wrap">
-							<a href="https://www.webulousthemes.com/checkout?edd_action=add_to_cart&download_id=23052" target="_blank">
-							<?php echo sprintf ( '<img src="'. get_template_directory_uri() .'/images/api.png" alt="%1$s" />',__('Image','tech-literacy') ); ?>
-							</a>
-						</div>
+						<a href="https://www.webulousthemes.com/checkout?edd_action=add_to_cart&download_id=23052" target="_blank">
+							<div id="webulous-mode-wrap">
+								<?php echo sprintf ('<h3>%1$s</h3><p>%2$s</p>',__('New to Creating a Website?','tech-literacy'),__('We will build you a complete website based on the theme you selected. We will populate content, change colors and do any look and feel customisation work you prefer.','tech-literacy') ); ?>
+							</div>
+							<div class="image-wrap">
+								<?php echo sprintf ( '<img src="'. get_template_directory_uri() .'/images/api.png" alt="%1$s" />',__('Image','tech-literacy') ); ?>
+							</div>
+						</a>
 					</div>
                     <div class="theme_info_left">
                         <div class="theme_link">
@@ -426,7 +425,6 @@ function tech_literacy_display_upgrade() {
 							'copyright' => array(
                                 'type' => 'textarea',
                                 'label' => __('Footer Copyright Text (Validated that it\'s HTML Allowed)', 'tech-literacy'),
-                                'description' => __('HTML Allowed. <b>This field is even HTML validated! </b>', 'tech-literacy'),
                                 'sanitize_callback' => 'tech_literacy_footer_copyright',
                             ),
 						),
@@ -579,7 +577,6 @@ function tech_literacy_display_upgrade() {
 							'enable_recent_post_service' => array(
                                 'type' => 'checkbox',
                                 'label' => __('Enable Home Page Recent Post Section', 'tech-literacy'),
-                                'description' => __('Enable recent post section in home page', 'tech-literacy'),
                                 'default' => 1,
                                 'sanitize_callback' => 'tech_literacy_boolean',  
                             ), 
@@ -589,10 +586,15 @@ function tech_literacy_display_upgrade() {
 								'sanitize_callback' => 'absint',
 								'default' => 3,  
 							), 
+							'recent_posts_exclude' => array(
+								'type' => 'text',
+								'label' => __('Exclude the Posts from Home Page', 'tech-literacy'),
+								'description' => __('Post IDs, separated by commas.','tech-literacy'),
+								'sanitize_callback' => 'sanitize_text_field', 
+							), 
 							'enable_home_default_content' => array(
                                 'type' => 'checkbox',
                                 'label' => __('Enable Home Page Default Content', 'tech-literacy'),
-                                'description' => __('Enable home page default content', 'tech-literacy'),
                                 'default' => 0,  
                                 'sanitize_callback' => 'tech_literacy_boolean',
                             ),
@@ -637,14 +639,12 @@ function tech_literacy_display_upgrade() {
                              'author_bio_box' => array(
                                 'type' => 'checkbox',
                                 'label' => __(' Enable Author Bio Box below single post', 'tech-literacy'),
-                                'description' => __('Show Author information box below single post.', 'tech-literacy'),
                                 'default' => 0,
                                 'sanitize_callback' => 'tech_literacy_boolean',    
                             ),
                             'related_posts' => array(
                                 'type' => 'checkbox',
                                 'label' => __('Show Related posts', 'tech-literacy'),
-                                'description' => __('Show related posts.', 'tech-literacy'),
                                 'default' => 0, 
                                 'sanitize_callback' => 'tech_literacy_boolean', 
                             ),
@@ -661,7 +661,6 @@ function tech_literacy_display_upgrade() {
                             'comments' => array(
                                 'type' => 'checkbox',
                                 'label' => __(' Show Comments', 'tech-literacy'),
-                                'description' => __('Show Comments', 'tech-literacy'),
                                 'default' => 1,  
                                 'sanitize_callback' => 'tech_literacy_boolean',
                             ),
