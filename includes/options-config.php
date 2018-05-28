@@ -620,53 +620,88 @@ function tech_literacy_display_upgrade() {
                                 'default' => '1', 
                                 'sanitize_callback' => 'absint',
                             ),
+						),
+					),
+					'single_blog' => array(
+						'title' => __('Single Blog', 'tech-literacy'),
+						'description' => __('Single Blog page Related Posts options', 'tech-literacy'),
+						'fields' => array(
 							'single_featured_image' => array(
 								'type' => 'checkbox',
 								'label' => __('Enable Single Post Featured Image', 'tech-literacy'),
 								'default' => 1,
 								'sanitize_callback' => 'tech_literacy_boolean',
 							),
-                            'single_featured_image_size' => array(
-                                'type' => 'radio',
-                                'label' => __('Choose the featured image display type for Single Page ', 'tech-literacy'),
-                                'choices' => array(
-                                    '1' => __('Large Featured Image', 'tech-literacy'),
-                                    '2' => __('Small Featured Image', 'tech-literacy'),       
-                                ),
-                                'default' => '1', 
-                                'sanitize_callback' => 'absint',  
-                            ),
-                             'author_bio_box' => array(
-                                'type' => 'checkbox',
-                                'label' => __(' Enable Author Bio Box below single post', 'tech-literacy'),
-                                'default' => 0,
-                                'sanitize_callback' => 'tech_literacy_boolean',    
-                            ),
-                            'related_posts' => array(
-                                'type' => 'checkbox',
-                                'label' => __('Show Related posts', 'tech-literacy'),
-                                'default' => 0, 
-                                'sanitize_callback' => 'tech_literacy_boolean', 
-                            ),
-                            'related_posts_hierarchy' => array(
-                                'type' => 'radio',
-                                'label' => __('Related Posts Must Be Shown As:', 'tech-literacy'),
-                                'choices' => array(
-                                    '1' => __('Related Posts By Tags', 'tech-literacy'),
-                                    '2' => __('Related Posts By Categories', 'tech-literacy'),      
-                                ),
-                               'default' => '1', 
-                               'sanitize_callback' => 'absint',    
-                            ),
-                            'comments' => array(
-                                'type' => 'checkbox',
-                                'label' => __(' Show Comments', 'tech-literacy'),
-                                'default' => 1,  
-                                'sanitize_callback' => 'tech_literacy_boolean',
-                            ),
+							'single_featured_image_size' => array(
+								'type' => 'radio',
+								'label' => __('Choose the featured image display type for Single Page ', 'tech-literacy'),
+								'choices' => array(
+									'1' => __('Large Featured Image', 'tech-literacy'),
+									'2' => __('Small Featured Image', 'tech-literacy'),       
+								),
+								'default' => '1', 
+								'sanitize_callback' => 'absint',  
+							),
+							'social_sharing_box' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Social Sharing Box below single post', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',    
+							),
+							'facebook_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Facebook Sharing option below single post', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',    
+							),
+							'twitter_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Twitter Sharing option below single post', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',    
+							),
+							'linkedin_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Linkedin Sharing option below single post', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',    
+							),
+							'google-plus_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Google Plus Sharing option below single post', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',    
+							),
+							'email_sb' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Email Sharing option below single post', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',    
+							),
+							'author_bio_box' => array(
+								'type' => 'checkbox',
+								'label' => __(' Enable Author Bio Box below single post', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',    
+							),
+							'related_posts' => array(
+								'type' => 'checkbox',
+								'label' => __('Show Related posts', 'tech-literacy'),
+								'default' => 0, 
+								'sanitize_callback' => 'tech_literacy_boolean', 
+							),
+							'related_posts_hierarchy' => array(
+								'type' => 'radio',
+								'label' => __('Related Posts Must Be Shown As:', 'tech-literacy'),
+								'choices' => array(
+									'1' => __('Related Posts By Tags', 'tech-literacy'),
+									'2' => __('Related Posts By Categories', 'tech-literacy'),      
+								),
+								'default' => '1', 
+								'sanitize_callback' => 'absint',    
+							),
 						),
 					),
-
 				)
 			),
 		) 

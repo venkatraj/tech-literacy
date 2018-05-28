@@ -2,8 +2,8 @@
 Contributors: Webulous
 Tags: education, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, translation-ready, theme-options
 Requires at least: 4.4
-Tested up to: 4.9.4
-Stable tag: 1.0.8
+Tested up to: 4.9.6
+Stable tag: 1.0.9
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,6 +45,9 @@ Enable/Disable featured images visibility.
 
 == Changelog ==
 
+= 1.0.9 =
+ * Social Sharing Box option added in Single post.
+
 = 1.0.8 =
  * Post Exclude Option added. 
 
@@ -63,8 +66,8 @@ Enable/Disable featured images visibility.
 
 == Upgrade Notice ==
 
-= 1.0.8 =
- * Post Exclude Option added. 
+= 1.0.9 =
+ * Social Sharing Box option added in Single post.
 
 Tech Literacy WordPress Theme bundles the following third-party resources:
 == Resources ==

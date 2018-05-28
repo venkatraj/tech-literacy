@@ -1345,16 +1345,16 @@ object {
   .share-box ul li {
     border: 0;
     padding: 0;
-    margin: 0 0px 0px 8px;
+    margin: 0 0px 0px 10px;
     display: inline-block; }
     .share-box ul li a {
-      width: 30px;
-      height: 30px;
+      width: 35px;
+      height: 35px;
       color: #27323d;
       display: inline-block;
       background-color: #27323d;
       text-align: center;
-      line-height: 30px;
+      line-height: 35px;
       -webkit-transform: rotate(-45deg);
               transform: rotate(-45deg);
       color: #fff; }
@@ -1365,8 +1365,7 @@ object {
         -webkit-transform: rotate(45deg);
                 transform: rotate(45deg);
         font-size: 14px;
-        font-size: 1.4rem;
-        line-height: 2; }
+        font-size: 1.4rem; }
 
 .share-box {
   margin-bottom: 50px; }

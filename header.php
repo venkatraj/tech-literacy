@@ -53,7 +53,7 @@ if ( is_singular() && pings_open() ) { ?>
 								<h2 class="site-title"><a style="color: #<?php header_textcolor(); ?>" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
 						<?php endif; ?>
 						<?php if( $tagline ) : ?>
-								<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+								<p class="site-description" style="color: #<?php header_textcolor(); ?>"><?php bloginfo( 'description' ); ?></p>
 						<?php endif; ?>
 					</div><!-- .site-branding -->
 				</div>

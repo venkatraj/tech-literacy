@@ -168,7 +168,11 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: single.php:33
+#: single.php:27
+msgid "Share this on ..."
+msgstr ""
+
+#: single.php:75
 msgid "About Author:"
 msgstr ""
 
@@ -681,44 +685,72 @@ msgstr ""
 msgid "Choose the featured image display type for Blog Page "
 msgstr ""
 
-#: includes/options-config.php:617, includes/options-config.php:633
+#: includes/options-config.php:617, includes/options-config.php:639
 msgid "Large Featured Image"
 msgstr ""
 
-#: includes/options-config.php:618, includes/options-config.php:634
+#: includes/options-config.php:618, includes/options-config.php:640
 msgid "Small Featured Image"
 msgstr ""
 
-#: includes/options-config.php:625
-msgid "Enable Single Post Featured Image"
+#: includes/options-config.php:626
+msgid "Single Blog"
+msgstr ""
+
+#: includes/options-config.php:627
+msgid "Single Blog page Related Posts options"
 msgstr ""
 
 #: includes/options-config.php:631
+msgid "Enable Single Post Featured Image"
+msgstr ""
+
+#: includes/options-config.php:637
 msgid "Choose the featured image display type for Single Page "
 msgstr ""
 
-#: includes/options-config.php:641
-msgid " Enable Author Bio Box below single post"
-msgstr ""
-
 #: includes/options-config.php:647
-msgid "Show Related posts"
+msgid " Enable Social Sharing Box below single post"
 msgstr ""
 
 #: includes/options-config.php:653
+msgid " Enable Facebook Sharing option below single post"
+msgstr ""
+
+#: includes/options-config.php:659
+msgid " Enable Twitter Sharing option below single post"
+msgstr ""
+
+#: includes/options-config.php:665
+msgid " Enable Linkedin Sharing option below single post"
+msgstr ""
+
+#: includes/options-config.php:671
+msgid " Enable Google Plus Sharing option below single post"
+msgstr ""
+
+#: includes/options-config.php:677
+msgid " Enable Email Sharing option below single post"
+msgstr ""
+
+#: includes/options-config.php:683
+msgid " Enable Author Bio Box below single post"
+msgstr ""
+
+#: includes/options-config.php:689
+msgid "Show Related posts"
+msgstr ""
+
+#: includes/options-config.php:695
 msgid "Related Posts Must Be Shown As:"
 msgstr ""
 
-#: includes/options-config.php:655
+#: includes/options-config.php:697
 msgid "Related Posts By Tags"
 msgstr ""
 
-#: includes/options-config.php:656
+#: includes/options-config.php:698
 msgid "Related Posts By Categories"
-msgstr ""
-
-#: includes/options-config.php:663
-msgid " Show Comments"
 msgstr ""
 
 #: includes/template-tags.php:25
@@ -789,67 +821,67 @@ msgstr ""
 msgid "d"
 msgstr ""
 
-#: includes/template-tags.php:325
+#: includes/template-tags.php:315
 msgid "Page"
 msgstr ""
 
-#: includes/template-tags.php:346
+#: includes/template-tags.php:336
 msgctxt "post author"
 msgid " %s"
 msgstr ""
 
-#: includes/template-tags.php:366
+#: includes/template-tags.php:356
 msgid "No Comments"
 msgstr ""
 
-#: includes/template-tags.php:368
+#: includes/template-tags.php:358
 msgid " Comments"
 msgstr ""
 
-#: includes/template-tags.php:370
+#: includes/template-tags.php:360
 msgid "1 Comment"
 msgstr ""
 
-#: includes/template-tags.php:374
+#: includes/template-tags.php:364
 msgid "Leave a comment"
 msgstr ""
 
-#: includes/template-tags.php:383, template-parts/content-page.php:30
+#: includes/template-tags.php:373, template-parts/content-page.php:30
 msgid "Edit"
 msgstr ""
 
-#: includes/template-tags.php:430, includes/template-tags.php:433
+#: includes/template-tags.php:420, includes/template-tags.php:423
 msgid "No Related Posts Yet!"
 msgstr ""
 
-#: includes/template-tags.php:461, template-parts/content.php:40
+#: includes/template-tags.php:451, template-parts/content.php:40
 msgid "Read More"
 msgstr ""
 
-#: includes/template-tags.php:497
+#: includes/template-tags.php:487
 msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our <a href=\"%2$s\">Welcome page</a>"
 msgstr ""
 
-#: includes/template-tags.php:498
+#: includes/template-tags.php:488
 msgid "Get started with Tech Literacy"
 msgstr ""
 
-#: includes/template-tags.php:508
+#: includes/template-tags.php:498
 msgctxt "label"
 msgid "Search for:"
 msgstr ""
 
-#: includes/template-tags.php:509
+#: includes/template-tags.php:499
 msgctxt "placeholder"
 msgid "Have a question? Search here"
 msgstr ""
 
-#: includes/template-tags.php:510
+#: includes/template-tags.php:500
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: includes/template-tags.php:541
+#: includes/template-tags.php:531
 msgid "The Searching Page couldn&apos;t found!!"
 msgstr ""
 
