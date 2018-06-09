@@ -1740,10 +1740,8 @@ blockquote, q {
     .post .latest-content a.more-link .fa {
       display: none; }
 
-.home .site-content {
-  padding-top: 0; }
-  .home .site-content .site-main {
-    margin-top: 0; }
+.home .site-content .site-main {
+  margin-top: 0; }
 
 .home .site-header {
   border-bottom: none; }
@@ -2892,6 +2890,23 @@ blockquote, q {
       list-style: none; }
     .site-footer .footer-widgets .widget_rss ul li {
       background: none; }
+  .site-footer .scroll-to-top {
+    background: #e74b3c;
+    color: #fff;
+    bottom: 3%;
+    cursor: pointer;
+    position: fixed;
+    left: 20px;
+    z-index: 999;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    background-clip: padding-box;
+    
+    border-radius: 4px;
+    transition: background-color 0.3s linear; }
+  .site-footer .scroll-to-top:hover {
+    background: rgba(231, 75, 60, 0.8); }
 
 .site-info {
   background: rgba(0, 0, 0, 0.1);

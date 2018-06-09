@@ -4,11 +4,11 @@ Theme URI: https://www.webulousthemes.com/tech-literacy/
 Author: N. Venkat Raj  
 Author URI: https://www.webulousthemes.com/
 Description: Tech Literacy is a free, clean, minimalistic, responsive, mobile-friendly WordPress theme. Tech Literacy suitable for education, literacy websites, online stores, personal portfolio, agencies, start-ups. However, due to its flexibility and easiness it can be used to create any types of sites. this Theme build in customizer it is very easy to use and user friendly. Theme includes lots of features like Drag & Drop page builder. 
-Version: 1.0.9
+Version: 1.1.0
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: tech-literacy
-Tags: education, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, translation-ready, theme-options
+Tags: education, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, theme-options
          
 Tech Literacy WordPress Theme, Copyright (C) 2017, N. Venkat Raj
 Tech Literacy is distributed under the terms of the GNU GPL
@@ -1816,10 +1816,8 @@ blockquote, q {
     .post .latest-content a.more-link .fa {
       display: none; }
 
-.home .site-content {
-  padding-top: 0; }
-  .home .site-content .site-main {
-    margin-top: 0; }
+.home .site-content .site-main {
+  margin-top: 0; }
 
 .home .site-header {
   border-bottom: none; }
@@ -2972,6 +2970,23 @@ blockquote, q {
       list-style: none; }
     .site-footer .footer-widgets .widget_rss ul li {
       background: none; }
+  .site-footer .scroll-to-top {
+    background: #e74b3c;
+    color: #fff;
+    bottom: 3%;
+    cursor: pointer;
+    position: fixed;
+    right: 20px;
+    z-index: 999;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    background-clip: padding-box;
+    /* stops bg color from leaking outside the border: */
+    border-radius: 4px;
+    transition: background-color 0.3s linear; }
+  .site-footer .scroll-to-top:hover {
+    background: rgba(231, 75, 60, 0.8); }
 
 .site-info {
   background: rgba(0, 0, 0, 0.1);

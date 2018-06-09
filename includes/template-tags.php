@@ -493,10 +493,11 @@ function tech_literacy_admin_notice() { ?>
 add_filter( 'get_search_form', 'tech_literacy_get_search_form' );
 if( !function_exists('tech_literacy_get_search_form') ) {
 	function tech_literacy_get_search_form($form) {  
+		$search_text = esc_html(get_theme_mod('search_placeholder','Have a question? Search here'));
         $form = '<div id="theme-live-search"> 
                     <form role="search" method="get" class="search-form" action="' . esc_url( home_url( '/' ) ) . '">
 	                    <span class="screen-reader-text">' . _x( 'Search for:', 'label' , 'tech-literacy' ) . '</span>
-	                    <input id="search" type="text" class="search-field" placeholder="' . esc_attr_x( 'Have a question? Search here', 'placeholder', 'tech-literacy' ) . '" value="' . get_search_query() . '" name="s" />
+	                    <input id="search" type="text" class="search-field" placeholder="' . esc_attr_x(	$search_text , 'placeholder', 'tech-literacy' ) . '" value="' . get_search_query() . '" name="s" />
 	                    <label class="search-submit-wrapper"><input type="submit" class="search-submit" value="'. esc_attr_x( 'Search', 'submit button' ,'tech-literacy' ) .'" /></label>
                         <div id="search_dropdown_list"></div>
                     </form>

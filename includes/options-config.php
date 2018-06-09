@@ -422,11 +422,17 @@ function tech_literacy_display_upgrade() {
 								'default' => 1,
 								'sanitize_callback' => 'tech_literacy_boolean',
 							),
+							'scroll_to_top' => array(
+								'type' => 'checkbox',
+								'label' => __('Enable Scroll To Top', 'tech-literacy'),
+								'default' => 0,
+								'sanitize_callback' => 'tech_literacy_boolean',
+							),
 							'copyright' => array(
                                 'type' => 'textarea',
                                 'label' => __('Footer Copyright Text (Validated that it\'s HTML Allowed)', 'tech-literacy'),
                                 'sanitize_callback' => 'tech_literacy_footer_copyright',
-                            ),
+							),
 						),
 					),
 					'search-section' => array (
@@ -444,6 +450,12 @@ function tech_literacy_display_upgrade() {
 								'label' => __('Search Heading', 'tech-literacy'),
 								'sanitize_callback' => 'tech_literacy_footer_copyright',
 								'default' => __('How We Can Help You Today?', 'tech-literacy'),
+							),
+							'search_placeholder' => array(
+								'type' => 'text',
+								'label' => __('Search Placeholder Text', 'tech-literacy'),
+								'sanitize_callback' => 'tech_literacy_footer_copyright',
+								'default' => __('Have a question? Search here', 'tech-literacy'),
 							),
 							'search_field_status_pages' => array(   
 								'type' => 'checkbox',
@@ -469,7 +481,7 @@ function tech_literacy_display_upgrade() {
 							),
 							'search_section_bg_size' => array (
 								'type' => 'select',
-								'label'    => __( 'Search Section Background Size', 'picolog' ),
+								'label'    => __( 'Search Section Background Size', 'tech-literacy' ),
 								'choices' => array(
 							        'cover'   => 'Cover', 
 							        'contain' => 'Contain', 
@@ -480,7 +492,7 @@ function tech_literacy_display_upgrade() {
 							),
 							'search_section_bg_repeat' => array (
 								'type' => 'select',
-								'label'    => __( 'Search Section Background Repeat', 'picolog' ),
+								'label'    => __( 'Search Section Background Repeat', 'tech-literacy' ),
 								'choices' => array(
 							        'no-repeat' => 'No Repeat',
 							        'repeat' => 'Repeat',
@@ -491,7 +503,7 @@ function tech_literacy_display_upgrade() {
 							),
 							'search_section_bg_position' => array (
 								'type' => 'select',
-								'label'    => __( 'Search Section Background position', 'picolog' ),
+								'label'    => __( 'Search Section Background position', 'tech-literacy' ),
 								'choices' => array(
 							        'center top' => 'Center Top',
        								'center center' => 'Center Center',
@@ -507,7 +519,7 @@ function tech_literacy_display_upgrade() {
 							),
 							'search_section_bg_attachment' => array (
 								'type' => 'select',
-								'label'    => __( 'Search Section Background attachment', 'picolog' ),
+								'label'    => __( 'Search Section Background attachment', 'tech-literacy' ),
 								'choices' => array(
 							        'scroll' =>'Scroll',
         							'fixed' =>'Fixed',
@@ -730,19 +742,19 @@ if ( ! function_exists( 'tech_literacy_footer_copyright' ) ) {
 
     function tech_literacy_footer_copyright($string) {
         $allowed_tags = array(    
-                            'a' => array(
-                            	'href' => array(),
-								'title' => array(),
-								'target' => array(),
-                            ),
-							'img' => array(
-								'src' => array(),  
-								'alt' => array(),
-							),
-							'p' => array(),
-							'br' => array(),
-							'em' => array(),
-                            'strong' => array(),
+			'a' => array(
+				'href' => array(),
+				'title' => array(),
+				'target' => array(),
+			),
+			'img' => array(
+				'src' => array(),  
+				'alt' => array(),
+			),
+			'p' => array(),
+			'br' => array(),
+			'em' => array(),
+			'strong' => array(),
         );
         return wp_kses( $string,$allowed_tags);
 

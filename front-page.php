@@ -23,7 +23,7 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 
 	 
     get_header(); 
-
+ 
     if( get_theme_mod('search_field_status',true) ) {
     	$search_title = esc_html(get_theme_mod('search_heading','How We Can Help You Today?')); 
     	echo '<div id="search-style" class="home-search-box-wrapper" style="background-color:'.$search_box_background_color.';background-image:url('. $search_box_background_image. ');background-size:'. $search_section_bg_size .'; background-repeat: '. $search_section_bg_repeat.'; background-position: '.$search_section_bg_position .'; background-attachment: '. $search_section_bg_attachment . ';"> 

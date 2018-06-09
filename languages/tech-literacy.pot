@@ -562,194 +562,222 @@ msgid "Footer Widget Area"
 msgstr ""
 
 #: includes/options-config.php:427
-msgid "Footer Copyright Text (Validated that it's HTML Allowed)"
+msgid "Enable Scroll To Top"
 msgstr ""
 
 #: includes/options-config.php:433
+msgid "Footer Copyright Text (Validated that it's HTML Allowed)"
+msgstr ""
+
+#: includes/options-config.php:439
 msgid "Search Section"
 msgstr ""
 
-#: includes/options-config.php:434
+#: includes/options-config.php:440
 msgid "Search Section Related options"
 msgstr ""
 
-#: includes/options-config.php:438
+#: includes/options-config.php:444
 msgid "Enable Home Page Search Section"
 msgstr ""
 
-#: includes/options-config.php:444
+#: includes/options-config.php:450
 msgid "Search Heading"
 msgstr ""
 
-#: includes/options-config.php:446
+#: includes/options-config.php:452
 msgid "How We Can Help You Today?"
 msgstr ""
 
-#: includes/options-config.php:450
-msgid "Enable Other Pages Search Section"
+#: includes/options-config.php:456
+msgid "Search Placeholder Text"
 msgstr ""
 
-#: includes/options-config.php:456
-msgid "Search Section Background Color"
+#: includes/options-config.php:458
+msgid "Have a question? Search here"
 msgstr ""
 
 #: includes/options-config.php:462
-msgid "Enable Search Section Background Image"
+msgid "Enable Other Pages Search Section"
 msgstr ""
 
 #: includes/options-config.php:468
+msgid "Search Section Background Color"
+msgstr ""
+
+#: includes/options-config.php:474
+msgid "Enable Search Section Background Image"
+msgstr ""
+
+#: includes/options-config.php:480
 msgid "Search Section Background Image"
 msgstr ""
 
-#: includes/options-config.php:520
+#: includes/options-config.php:484
+msgid "Search Section Background Size"
+msgstr ""
+
+#: includes/options-config.php:495
+msgid "Search Section Background Repeat"
+msgstr ""
+
+#: includes/options-config.php:506
+msgid "Search Section Background position"
+msgstr ""
+
+#: includes/options-config.php:522
+msgid "Search Section Background attachment"
+msgstr ""
+
+#: includes/options-config.php:532
 msgid "Home"
 msgstr ""
 
-#: includes/options-config.php:521
+#: includes/options-config.php:533
 msgid "Home Page options"
 msgstr ""
 
-#: includes/options-config.php:525
+#: includes/options-config.php:537
 msgid "Enable Home Page Service Section"
 msgstr ""
 
-#: includes/options-config.php:531
+#: includes/options-config.php:543
 msgid "Choose Service Section Icons #1"
 msgstr ""
 
-#: includes/options-config.php:536
+#: includes/options-config.php:548
 msgid "Service Section #1"
 msgstr ""
 
-#: includes/options-config.php:541
+#: includes/options-config.php:553
 msgid "Service #1 Color"
 msgstr ""
 
-#: includes/options-config.php:547
+#: includes/options-config.php:559
 msgid "Choose Service Section Icons #2"
 msgstr ""
 
-#: includes/options-config.php:552
+#: includes/options-config.php:564
 msgid "Service Section #2"
 msgstr ""
 
-#: includes/options-config.php:557
+#: includes/options-config.php:569
 msgid "Service #2 Color"
 msgstr ""
 
-#: includes/options-config.php:563
+#: includes/options-config.php:575
 msgid "Choose Service Section Icons #3"
 msgstr ""
 
-#: includes/options-config.php:568
+#: includes/options-config.php:580
 msgid "Service Section #3"
 msgstr ""
 
-#: includes/options-config.php:573
+#: includes/options-config.php:585
 msgid "Service #3 Color"
 msgstr ""
 
-#: includes/options-config.php:579
+#: includes/options-config.php:591
 msgid "Enable Home Page Recent Post Section"
 msgstr ""
 
-#: includes/options-config.php:585
+#: includes/options-config.php:597
 msgid "No. of Recent Posts"
 msgstr ""
 
-#: includes/options-config.php:591
+#: includes/options-config.php:603
 msgid "Exclude the Posts from Home Page"
 msgstr ""
 
-#: includes/options-config.php:592
+#: includes/options-config.php:604
 msgid "Post IDs, separated by commas."
 msgstr ""
 
-#: includes/options-config.php:597
+#: includes/options-config.php:609
 msgid "Enable Home Page Default Content"
 msgstr ""
 
-#: includes/options-config.php:604
+#: includes/options-config.php:616
 msgid "Blog"
 msgstr ""
 
-#: includes/options-config.php:605
+#: includes/options-config.php:617
 msgid "Blog Related Posts options"
 msgstr ""
 
-#: includes/options-config.php:609
+#: includes/options-config.php:621
 msgid "Enable Featured Image"
 msgstr ""
 
-#: includes/options-config.php:615
+#: includes/options-config.php:627
 msgid "Choose the featured image display type for Blog Page "
 msgstr ""
 
-#: includes/options-config.php:617, includes/options-config.php:639
+#: includes/options-config.php:629, includes/options-config.php:651
 msgid "Large Featured Image"
 msgstr ""
 
-#: includes/options-config.php:618, includes/options-config.php:640
+#: includes/options-config.php:630, includes/options-config.php:652
 msgid "Small Featured Image"
 msgstr ""
 
-#: includes/options-config.php:626
+#: includes/options-config.php:638
 msgid "Single Blog"
 msgstr ""
 
-#: includes/options-config.php:627
+#: includes/options-config.php:639
 msgid "Single Blog page Related Posts options"
 msgstr ""
 
-#: includes/options-config.php:631
+#: includes/options-config.php:643
 msgid "Enable Single Post Featured Image"
 msgstr ""
 
-#: includes/options-config.php:637
+#: includes/options-config.php:649
 msgid "Choose the featured image display type for Single Page "
 msgstr ""
 
-#: includes/options-config.php:647
+#: includes/options-config.php:659
 msgid " Enable Social Sharing Box below single post"
 msgstr ""
 
-#: includes/options-config.php:653
+#: includes/options-config.php:665
 msgid " Enable Facebook Sharing option below single post"
 msgstr ""
 
-#: includes/options-config.php:659
+#: includes/options-config.php:671
 msgid " Enable Twitter Sharing option below single post"
 msgstr ""
 
-#: includes/options-config.php:665
+#: includes/options-config.php:677
 msgid " Enable Linkedin Sharing option below single post"
 msgstr ""
 
-#: includes/options-config.php:671
+#: includes/options-config.php:683
 msgid " Enable Google Plus Sharing option below single post"
 msgstr ""
 
-#: includes/options-config.php:677
+#: includes/options-config.php:689
 msgid " Enable Email Sharing option below single post"
 msgstr ""
 
-#: includes/options-config.php:683
+#: includes/options-config.php:695
 msgid " Enable Author Bio Box below single post"
 msgstr ""
 
-#: includes/options-config.php:689
+#: includes/options-config.php:701
 msgid "Show Related posts"
 msgstr ""
 
-#: includes/options-config.php:695
+#: includes/options-config.php:707
 msgid "Related Posts Must Be Shown As:"
 msgstr ""
 
-#: includes/options-config.php:697
+#: includes/options-config.php:709
 msgid "Related Posts By Tags"
 msgstr ""
 
-#: includes/options-config.php:698
+#: includes/options-config.php:710
 msgid "Related Posts By Categories"
 msgstr ""
 
@@ -866,22 +894,22 @@ msgstr ""
 msgid "Get started with Tech Literacy"
 msgstr ""
 
-#: includes/template-tags.php:498
+#: includes/template-tags.php:499
 msgctxt "label"
 msgid "Search for:"
 msgstr ""
 
-#: includes/template-tags.php:499
+#: includes/template-tags.php:500
 msgctxt "placeholder"
-msgid "Have a question? Search here"
+msgid "$search_text"
 msgstr ""
 
-#: includes/template-tags.php:500
+#: includes/template-tags.php:501
 msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: includes/template-tags.php:531
+#: includes/template-tags.php:532
 msgid "The Searching Page couldn&apos;t found!!"
 msgstr ""
 
