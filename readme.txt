@@ -1,9 +1,9 @@
 === Tech Literacy ===
 Contributors: Webulous
-Tags: education, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, translation-ready, theme-options
+Tags: education, blog, custom-menu, custom-background, custom-header, custom-logo, featured-images, right-sidebar, sticky-post, threaded-comments, translation-ready, two-columns, one-column, footer-widgets, full-width-template, theme-options
 Requires at least: 4.4
 Tested up to: 4.9.6
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -45,6 +45,9 @@ Enable/Disable featured images visibility.
 
 == Changelog ==
 
+= 1.1.1 = 
+* WPForms Lite plugin recommended. 
+
 = 1.1.0 =
  * Scroll to Top option added.
  * Search Box placeholder text changing option added.
@@ -70,9 +73,8 @@ Enable/Disable featured images visibility.
 
 == Upgrade Notice ==
 
-= 1.1.0 =
- * Scroll to Top option added.
- * Search Box placeholder text changing option added.
+= 1.1.1 = 
+* WPForms Lite plugin recommended. 
 
 Tech Literacy WordPress Theme bundles the following third-party resources:
 == Resources ==

@@ -718,7 +718,7 @@ function tech_literacy_display_upgrade() {
 			),
 		) 
 	)
-	);
+);
 
 function tech_literacy_boolean($value) {
 	if(is_bool($value)) {
