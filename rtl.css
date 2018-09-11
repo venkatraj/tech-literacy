@@ -1698,12 +1698,16 @@ blockquote, q {
     position: relative; }
     blockquote p cite, q p cite {
       font-style: normal;
-      text-transform: uppercase; }
+      color: #27323d; }
     blockquote p a, blockquote p a:visited, q p a, q p a:visited {
       font-size: 14px;
       font-size: 1.4rem; }
     blockquote p a:hover, q p a:hover {
       color: #4b4f56; }
+
+p cite {
+  font-style: normal;
+  color: #27323d; }
 
 .related-posts {
   padding: 20px 0px; }
@@ -1739,6 +1743,75 @@ blockquote, q {
       background: #27323d; }
     .post .latest-content a.more-link .fa {
       display: none; }
+
+
+#primary ul {
+  list-style-type: disc; }
+
+.wp-block-latest-posts.aligncenter {
+  margin-right: 3em; }
+
+.wp-block-verse {
+  color: #4b4f56; }
+
+.wp-block-quote {
+  border-right: 4px solid #e74b3c;
+  padding-right: 5px;
+  margin-top: 0px;
+  padding-top: 0px; }
+  .wp-block-quote p {
+    padding: 20px; }
+  .wp-block-quote:before {
+    content: ""; }
+  .wp-block-quote cite {
+    margin: 0px;
+    padding-right: 20px; }
+
+.wp-block-quote.is-large {
+  border: 0px;
+  color: #27323d; }
+  .wp-block-quote.is-large cite {
+    text-align: left;
+    display: block;
+    color: #333;
+    font-style: italic;
+    padding-left: 20px; }
+
+.wp-block-pullquote {
+  border-top: 4px solid #e74b3c;
+  border-bottom: 4px solid #e74b3c;
+  padding: 0px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  border-right: none !important;
+  margin-bottom: 20px; }
+  .wp-block-pullquote:before {
+    content: ""; }
+  .wp-block-pullquote p {
+    padding: 20px; }
+
+.wp-block-pullquote.alignleft {
+  margin-left: 25px; }
+
+.wp-block-pullquote.alignright {
+  margin-right: 25px; }
+
+.wp-block-button a:hover {
+  padding: 11px 24px;
+  background-color: #e74b3c;
+  box-shadow: -3px 3px #e74b3c;
+  -webkit-box-shadow: -3px 3px #e74b3c; }
+
+.wp-block-cover-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.wp-block-audio {
+  text-align: center; }
+
+.wp-block-button.aligncenter {
+  margin-bottom: 1.5em; }
 
 .home .site-content .site-main {
   margin-top: 0; }
